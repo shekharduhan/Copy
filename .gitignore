@@ -7,3 +7,5 @@ shots/
 films/*/out/
 films/*/assets/
 films/*/audio/takes/
+films/*/audio/lines/
+films/*/audio/trimmed/
