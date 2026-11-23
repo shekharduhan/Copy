@@ -112,7 +112,7 @@ def main(n):
     sh(["python3", str(ROOT / "tools" / "music.py"), f"{total + 0.5:.2f}", str(music), "--seed", str(n), "--mood", mood])
     final = out / f"Ramayan_Ep{n:02d}.mp4"
     fc = ("[1:a]aresample=44100,pan=stereo|c0=c0|c1=c0,loudnorm=I=-16:TP=-1.5:LRA=11,apad,asplit=2[v1][v2];"
-          "[2:a]volume=0.22[m];[m][v1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=400[md];"
+          "[2:a]volume=0.09[m];[m][v1]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=400[md];"
           "[v2][md]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1:LRA=11,atrim=0:" + f"{total:.3f}" + "[a];"
           f"[0:v]subtitles='{ass}':fontsdir='{ROOT / 'fonts'}'[vv]")
     sh(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-i", str(d / "audio" / "narration.wav"), "-i", str(music),
