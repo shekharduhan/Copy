@@ -1,5 +1,5 @@
 {
-  "total_duration": 83.371,
+  "total_duration": 81.598,
   "lead_in": 0.9,
   "tail_out": 3.0,
   "tempo": 1.0,
@@ -10,170 +10,170 @@
       "caption": "An island fortress across the sea. Its king has ten heads, and a stolen queen.",
       "vo": "An island fortress across the sea. Its king has ten heads, and a stolen queen.",
       "start": 0.9,
-      "end": 5.736,
-      "duration": 4.836
+      "end": 5.444,
+      "duration": 4.544
     },
     {
       "id": 2,
       "scene": "T01_cold_open",
       "caption": "On the shore, an army of monkeys builds a bridge of floating stones.",
       "vo": "On the shore, an army of monkeys builds a bridge of floating stones.",
-      "start": 6.186,
-      "end": 9.782,
-      "duration": 3.596
+      "start": 5.894,
+      "end": 9.665,
+      "duration": 3.771
     },
     {
       "id": 3,
       "scene": "T01_cold_open",
       "caption": "They follow one man. A prince without a kingdom.",
       "vo": "They follow one man. A prince without a kingdom.",
-      "start": 10.232,
-      "end": 13.126,
-      "duration": 2.894
+      "start": 10.115,
+      "end": 12.801,
+      "duration": 2.685
     },
     {
       "id": 4,
       "scene": "T02_ayodhya",
       "caption": "Years earlier, Rama was heir to the throne of Ayodhya.",
       "vo": "Years earlier, Rama was heir to the throne of Ayodhya.",
-      "start": 14.325,
-      "end": 16.951,
-      "duration": 2.625
+      "start": 14.001,
+      "end": 17.039,
+      "duration": 3.038
     },
     {
       "id": 5,
       "scene": "T02_ayodhya",
       "caption": "He won Princess Sita by lifting a bow no other suitor could move, and it snapped in two.",
       "vo": "He won Princess Sita by lifting a bow no other suitor could move, and it snapped in two.",
-      "start": 17.401,
-      "end": 22.255,
-      "duration": 4.854
+      "start": 17.489,
+      "end": 22.422,
+      "duration": 4.933
     },
     {
       "id": 6,
       "scene": "T02_ayodhya",
       "caption": "But on the eve of his crowning, Queen Kaikeyi called in two old promises.",
       "vo": "But on the eve of his crowning, Queen Kaikeyee called in two old promises.",
-      "start": 22.705,
-      "end": 26.789,
-      "duration": 4.084
+      "start": 22.872,
+      "end": 26.874,
+      "duration": 4.003
     },
     {
       "id": 7,
       "scene": "T02_ayodhya",
       "caption": "Her son would rule. Rama would live in the forest for fourteen years.",
       "vo": "Her son would rule. Rama would live in the forest for fourteen years.",
-      "start": 27.239,
-      "end": 30.995,
-      "duration": 3.757
+      "start": 27.324,
+      "end": 30.902,
+      "duration": 3.578
     },
     {
       "id": 8,
       "scene": "T03_the_forest",
       "caption": "He went without a word of protest, with Sita and his brother Lakshmana.",
       "vo": "He went without a word of protest, with Sita and his brother Lakshmana.",
-      "start": 31.995,
-      "end": 36.08,
-      "duration": 4.085
+      "start": 31.902,
+      "end": 35.677,
+      "duration": 3.775
     },
     {
       "id": 9,
       "scene": "T03_the_forest",
       "caption": "Deep in the forest, a golden deer lured Rama away.",
       "vo": "Deep in the forest, a golden deer lured Rama away.",
-      "start": 36.53,
-      "end": 39.226,
-      "duration": 2.696
+      "start": 36.127,
+      "end": 39.032,
+      "duration": 2.905
     },
     {
       "id": 10,
       "scene": "T03_the_forest",
       "caption": "Ravana came dressed as a holy man, and carried Sita off through the sky.",
       "vo": "Raavan came dressed as a holy man, and carried Sita off through the sky.",
-      "start": 39.676,
-      "end": 43.587,
-      "duration": 3.911
+      "start": 39.482,
+      "end": 43.525,
+      "duration": 4.043
     },
     {
       "id": 11,
       "scene": "T03_the_forest",
       "caption": "An old vulture, Jatayu, flew up to stop him, and fell.",
       "vo": "An old vulture, Jataayu, flew up to stop him, and fell.",
-      "start": 44.037,
-      "end": 47.882,
-      "duration": 3.845
+      "start": 43.975,
+      "end": 47.103,
+      "duration": 3.128
     },
     {
       "id": 12,
       "scene": "T04_the_search",
       "caption": "Searching the south, Rama found allies in the monkey king Sugriva and his minister, Hanuman.",
       "vo": "Searching the south, Rama found allies in the monkey king Sugreeva and his minister, Hanuman.",
-      "start": 48.882,
-      "end": 54.11,
-      "duration": 5.228
+      "start": 48.103,
+      "end": 53.312,
+      "duration": 5.208
     },
     {
       "id": 13,
       "scene": "T04_the_search",
       "caption": "Hanuman leapt the sea, found Sita, and left Lanka burning.",
       "vo": "Hanuman leapt the sea, found Sita, and left Lanka burning.",
-      "start": 54.56,
-      "end": 58.277,
-      "duration": 3.717
+      "start": 53.762,
+      "end": 57.112,
+      "duration": 3.35
     },
     {
       "id": 14,
       "scene": "T04_the_search",
       "caption": "Then the army built its bridge. And crossed.",
       "vo": "Then the army built its bridge. And crossed.",
-      "start": 58.727,
-      "end": 61.294,
-      "duration": 2.567
+      "start": 57.562,
+      "end": 59.974,
+      "duration": 2.412
     },
     {
       "id": 15,
       "scene": "T05_close",
       "caption": "The war ended with one arrow, and Ravana fell.",
       "vo": "The war ended with one arrow, and Raavan fell.",
-      "start": 62.294,
-      "end": 64.746,
-      "duration": 2.452
+      "start": 60.974,
+      "end": 63.684,
+      "duration": 2.71
     },
     {
       "id": 16,
       "scene": "T05_close",
       "caption": "Rama came home to Ayodhya, and the city lit lamps to greet him.",
       "vo": "Rama came home to Ayodhya, and the city lit lamps to greet him.",
-      "start": 65.196,
-      "end": 68.888,
-      "duration": 3.692
+      "start": 64.134,
+      "end": 67.709,
+      "duration": 3.574
     },
     {
       "id": 17,
       "scene": "T05_close",
       "caption": "Every autumn, at Diwali, millions still light them.",
       "vo": "Every autumn, at Diwali, millions still light them.",
-      "start": 69.338,
-      "end": 72.452,
-      "duration": 3.114
+      "start": 68.159,
+      "end": 71.008,
+      "duration": 2.85
     },
     {
       "id": 18,
       "scene": "T05_close",
       "caption": "The poet Valmiki told it in about twenty-four thousand verses.",
       "vo": "The poet Vaalmiki told it in about twenty-four thousand verses.",
-      "start": 72.902,
-      "end": 76.579,
-      "duration": 3.677
+      "start": 71.458,
+      "end": 75.13,
+      "duration": 3.672
     },
     {
       "id": 19,
       "scene": "T05_close",
       "caption": "More than two thousand years on, it is still being told.",
       "vo": "More than two thousand years on, it is still being told.",
-      "start": 77.029,
-      "end": 80.371,
-      "duration": 3.342
+      "start": 75.58,
+      "end": 78.598,
+      "duration": 3.018
     }
   ]
 }
