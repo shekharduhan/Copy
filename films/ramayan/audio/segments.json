@@ -1,0 +1,137 @@
+{
+ "segments": [
+  {
+   "id": 1,
+   "scene": "T01_cold_open",
+   "caption": "An island fortress across the sea. Its king has ten heads, and a stolen queen.",
+   "vo": "An island fortress across the sea. Its king has ten heads, and a stolen queen.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 2,
+   "scene": "T01_cold_open",
+   "caption": "On the shore, an army of monkeys builds a bridge of floating stones.",
+   "vo": "On the shore, an army of monkeys builds a bridge of floating stones.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 3,
+   "scene": "T01_cold_open",
+   "caption": "They follow one man. A prince without a kingdom.",
+   "vo": "They follow one man. A prince without a kingdom.",
+   "gap_after": 1.2
+  },
+  {
+   "id": 4,
+   "scene": "T02_ayodhya",
+   "caption": "Years earlier, Rama was heir to the throne of Ayodhya.",
+   "vo": "Years earlier, Rama was heir to the throne of Ayodhya.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 5,
+   "scene": "T02_ayodhya",
+   "caption": "He won Princess Sita by lifting a bow no other suitor could move, and it snapped in two.",
+   "vo": "He won Princess Sita by lifting a bow no other suitor could move, and it snapped in two.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 6,
+   "scene": "T02_ayodhya",
+   "caption": "But on the eve of his crowning, Queen Kaikeyi called in two old promises.",
+   "vo": "But on the eve of his crowning, Queen Kaikeyee called in two old promises.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 7,
+   "scene": "T02_ayodhya",
+   "caption": "Her son would rule. Rama would live in the forest for fourteen years.",
+   "vo": "Her son would rule. Rama would live in the forest for fourteen years.",
+   "gap_after": 1.0
+  },
+  {
+   "id": 8,
+   "scene": "T03_the_forest",
+   "caption": "He went without a word of protest, with Sita and his brother Lakshmana.",
+   "vo": "He went without a word of protest, with Sita and his brother Lakshmana.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 9,
+   "scene": "T03_the_forest",
+   "caption": "Deep in the forest, a golden deer lured Rama away.",
+   "vo": "Deep in the forest, a golden deer lured Rama away.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 10,
+   "scene": "T03_the_forest",
+   "caption": "Ravana came dressed as a holy man, and carried Sita off through the sky.",
+   "vo": "Raavan came dressed as a holy man, and carried Sita off through the sky.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 11,
+   "scene": "T03_the_forest",
+   "caption": "An old vulture, Jatayu, flew up to stop him, and fell.",
+   "vo": "An old vulture, Jataayu, flew up to stop him, and fell.",
+   "gap_after": 1.0
+  },
+  {
+   "id": 12,
+   "scene": "T04_the_search",
+   "caption": "Searching the south, Rama found allies in the monkey king Sugriva and his minister, Hanuman.",
+   "vo": "Searching the south, Rama found allies in the monkey king Sugreeva and his minister, Hanuman.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 13,
+   "scene": "T04_the_search",
+   "caption": "Hanuman leapt the sea, found Sita, and left Lanka burning.",
+   "vo": "Hanuman leapt the sea, found Sita, and left Lanka burning.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 14,
+   "scene": "T04_the_search",
+   "caption": "Then the army built its bridge. And crossed.",
+   "vo": "Then the army built its bridge. And crossed.",
+   "gap_after": 1.0
+  },
+  {
+   "id": 15,
+   "scene": "T05_close",
+   "caption": "The war ended with one arrow, and Ravana fell.",
+   "vo": "The war ended with one arrow, and Raavan fell.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 16,
+   "scene": "T05_close",
+   "caption": "Rama came home to Ayodhya, and the city lit lamps to greet him.",
+   "vo": "Rama came home to Ayodhya, and the city lit lamps to greet him.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 17,
+   "scene": "T05_close",
+   "caption": "Every autumn, at Diwali, millions still light them.",
+   "vo": "Every autumn, at Diwali, millions still light them.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 18,
+   "scene": "T05_close",
+   "caption": "The poet Valmiki told it in about twenty-four thousand verses.",
+   "vo": "The poet Vaalmiki told it in about twenty-four thousand verses.",
+   "gap_after": 0.45
+  },
+  {
+   "id": 19,
+   "scene": "T05_close",
+   "caption": "More than two thousand years on, it is still being told.",
+   "vo": "More than two thousand years on, it is still being told.",
+   "gap_after": 1.0
+  }
+ ]
+}

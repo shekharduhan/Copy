@@ -1,10 +1,15 @@
 {
  "maps": [{
-  "name": "world",
+  "name": "india",
   "source": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
   "object": "countries",
-  "projection": {"type": "equirect", "lon0": 10, "lat0": 0},
-  "drop": ["Antarctica"],
-  "places": {"Addis Ababa": [9.03, 38.74], "Bogota": [4.71, -74.07], "Hanoi": [21.03, 105.85]}
+  "projection": {"type": "albers", "lon0": 80, "lat0": 19, "p1": 10, "p2": 28},
+  "keep": ["India", "Sri Lanka"],
+  "neighbors": {"source": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json", "object": "countries",
+                "keep": ["Nepal", "Bangladesh", "Pakistan", "Bhutan", "China", "Myanmar"], "dark": ["Nepal", "Bangladesh", "Pakistan", "Bhutan", "China", "Myanmar"],
+                "clip": [64, 4, 96, 34]},
+  "frame": [66, 5, 94, 32],
+  "places": {"Ayodhya": [26.80, 82.20], "Panchavati": [20.01, 73.79], "Kishkindha": [15.33, 76.46],
+             "Rameswaram": [9.29, 79.31], "Lanka": [7.6, 80.7]}
  }]
 }

@@ -24,6 +24,8 @@ import html
 import json
 import pathlib
 import re
+import shutil
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -34,16 +36,24 @@ UA = "cinematic-film/1.0 (+https://github.com/Moh4696/open-3d-skills)"
 FREE = re.compile(r"public domain|^pd\b|^pd-|cc0|cc[- ]by(?!.*\bnc\b)(?!.*\bnd\b)", re.I)
 
 
+def backoff(err, attempt):
+    """Wait out a 429/503: honour Retry-After when Wikimedia sends one, else back off exponentially."""
+    ra = (err.headers or {}).get("Retry-After", "")
+    wait = int(ra) if ra.isdigit() else 5 * 2 ** attempt
+    print(f"  rate limited ({err.code}); waiting {min(wait, 120)}s", file=sys.stderr)
+    time.sleep(min(wait, 120))
+
+
 def api(**params):
     params.update(format="json", formatversion="2")
     req = urllib.request.Request(API + "?" + urllib.parse.urlencode(params), headers={"User-Agent": UA})
-    for attempt in range(4):
+    for attempt in range(6):
         try:
             with urllib.request.urlopen(req, timeout=40) as r:
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and attempt < 3:
-                time.sleep(3 * (attempt + 1)); continue
+            if e.code in (429, 503) and attempt < 5:
+                backoff(e, attempt); continue
             raise
 
 
@@ -84,15 +94,54 @@ def cmd_category(a):
 
 
 def download(url, dst):
+    # upload.wikimedia.org throttles HTTP/1.1 clients (429, Retry-After 120) but serves HTTP/2 freely,
+    # and urllib only speaks HTTP/1.1, so download with curl when it is there.
+    if shutil.which("curl"):
+        for attempt in range(4):
+            r = subprocess.run(["curl", "-sSL", "--fail", "-A", UA, "-o", str(dst), "-w", "%{http_code}", url],
+                               capture_output=True, text=True)
+            if r.returncode == 0:
+                return
+            code = r.stdout.strip()
+            if code in ("429", "503") and attempt < 3:
+                print(f"  rate limited ({code}); waiting {30 * (attempt + 1)}s", file=sys.stderr)
+                time.sleep(30 * (attempt + 1)); continue
+            sys.exit(f"download failed ({code or r.stderr.strip()}): {url}")
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    for attempt in range(4):
+    for attempt in range(6):
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
                 dst.write_bytes(r.read()); return
         except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and attempt < 3:
-                time.sleep(5 * (attempt + 1)); continue
+            if e.code in (429, 503) and attempt < 5:
+                backoff(e, attempt); continue
             raise
+
+
+STEPS = (3840, 1920, 1280, 960, 500)     # Wikimedia's standard thumbnail widths
+
+
+def render_url(d):
+    """A rendered copy at a standard width, not the original file.
+
+    Wikimedia rate-limits original-file downloads hard (429 even for a single request from shared IPs),
+    while standard-width renders are cached and served freely. Non-standard widths (3200) are refused.
+    Renders live on upload.wikimedia.org (the API may name thumb.wikimedia.org, which serves the same path),
+    so one allowed host covers every download behind a restricted network.
+    """
+    w, orig = d["w"] or 0, d["url"].split("?")[0]
+    svg = "svg" in (d["mime"] or "")
+    step = 3840 if svg else next((s for s in STEPS if s <= w), None)
+    if step is None or "/wikipedia/commons/" not in orig:
+        return orig                                  # small file: the original is all there is
+    head, name = orig.rsplit("/", 1)
+    thumb = head.replace("/wikipedia/commons/", "/wikipedia/commons/thumb/") + "/" + name
+    mime = d["mime"] or ""
+    if "tiff" in mime:
+        return f"{thumb}/lossy-page1-{step}px-{name}.jpg"
+    if svg or "pdf" in mime or "djvu" in mime:
+        return f"{thumb}/{step}px-{name}.png" if svg else f"{thumb}/page1-{step}px-{name}.jpg"
+    return f"{thumb}/{step}px-{name}"
 
 
 def cmd_get(a):
@@ -113,9 +162,7 @@ def cmd_get(a):
             ok = bool(FREE.search(d["license"] or ""))
             if not ok and not a.allow_nonfree:
                 print(f"{p['id']}: REFUSED, licence {d['license']!r} is not free ({d['source']})"); refused += 1; continue
-            url = d["thumb"] if d["thumb"] and (d["w"] or 0) > 3200 and "svg" not in (d["mime"] or "") else d["url"]
-            if "svg" in (d["mime"] or ""):
-                url = d["thumb"]
+            url = render_url(d)
             ext = pathlib.Path(urllib.parse.urlparse(url).path).suffix.lower() or ".jpg"
             fname = p["file"] if have and not a.force else f"{p['id']}_{re.sub(r'[^A-Za-z0-9]+', '_', title[5:].rsplit('.', 1)[0])[:48]}{ext}"
             if not have or a.force:
@@ -123,7 +170,8 @@ def cmd_get(a):
             p.update(file=fname, source=d["source"], credit=p.get("credit") or d["credit"], license=d["license"],
                      license_url=d["license_url"], date=d["date"], license_ok=ok)
             print(f"{p['id']}: {fname}  [{d['license']}]  {p['credit'][:50]}")
-            time.sleep(0.5)
+            (proj / "photos.json").write_text(json.dumps(spec, indent=1, ensure_ascii=False) + "\n")  # keep progress if a later image fails
+            time.sleep(1.5)
         elif p.get("url"):
             ext = pathlib.Path(urllib.parse.urlparse(p["url"]).path).suffix.lower() or ".jpg"
             fname = f"{p['id']}{ext}"

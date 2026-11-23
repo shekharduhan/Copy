@@ -3,3 +3,7 @@ node_modules/
 __pycache__/
 *.pyc
 shots/
+# film projects: rebuilt by fetch_commons get / make_map / prep_assets / tts + render
+films/*/out/
+films/*/assets/
+films/*/audio/takes/
