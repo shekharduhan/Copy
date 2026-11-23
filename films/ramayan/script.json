@@ -1,0 +1,88 @@
+{
+ "title": "Ramayan",
+ "takes": [
+  {"take": "T01_cold_open", "lines": [
+   {"id": 1, "text": "An island fortress across the sea. Its king has ten heads, and a stolen queen.",
+    "spoken": "An island fortress across the sea. Its king has ten heads, and a stolen queen.",
+    "hero": "map pin on Lanka; Ravana painting lands", "typed": "LANKA"},
+   {"id": 2, "text": "On the shore, an army of monkeys builds a bridge of floating stones.",
+    "spoken": "On the shore, an army of monkeys builds a bridge of floating stones.",
+    "hero": "the bridge-building folio from the Mewar Ramayana", "typed": ""},
+   {"id": 3, "text": "They follow one man. A prince without a kingdom.",
+    "spoken": "They follow one man. A prince without a kingdom.",
+    "hero": "Rama's portrait, pen circle; title after the line", "typed": "RAMA · title RAMAYAN", "gap_after": 1.2}
+  ]},
+  {"take": "T02_ayodhya", "lines": [
+   {"id": 4, "text": "Years earlier, Rama was heir to the throne of Ayodhya.",
+    "spoken": "Years earlier, Rama was heir to the throne of Ayodhya.",
+    "hero": "string from Rama's portrait to Ayodhya on the map", "typed": "AYODHYA"},
+   {"id": 5, "text": "He won Princess Sita by lifting a bow no other suitor could move, and it snapped in two.",
+    "spoken": "He won Princess Sita by lifting a bow no other suitor could move, and it snapped in two.",
+    "hero": "the breaking-of-the-bow painting; name bar SITA", "typed": "SITA"},
+   {"id": 6, "text": "But on the eve of his crowning, Queen Kaikeyi called in two old promises.",
+    "spoken": "But on the eve of his crowning, Queen Kaikeyee called in two old promises.",
+    "hero": "Kaikeyi with King Dasharatha", "typed": "KAIKEYI"},
+   {"id": 7, "text": "Her son would rule. Rama would live in the forest for fourteen years.",
+    "spoken": "Her son would rule. Rama would live in the forest for fourteen years.",
+    "hero": "counter rolls to 14 YEARS; stamp on 'forest'", "typed": "14 YEARS · stamp EXILED"}
+  ]},
+  {"take": "T03_the_forest", "lines": [
+   {"id": 8, "text": "He went without a word of protest, with Sita and his brother Lakshmana.",
+    "spoken": "He went without a word of protest, with Sita and his brother Lakshmana.",
+    "hero": "route draws from Ayodhya south into the forest", "typed": "LAKSHMANA"},
+   {"id": 9, "text": "Deep in the forest, a golden deer lured Rama away.",
+    "spoken": "Deep in the forest, a golden deer lured Rama away.",
+    "hero": "the golden deer folio", "typed": ""},
+   {"id": 10, "text": "Ravana came dressed as a holy man, and carried Sita off through the sky.",
+    "spoken": "Raavan came dressed as a holy man, and carried Sita off through the sky.",
+    "hero": "Ravi Varma's abduction painting; stamp on 'sky'", "typed": "RAVANA · stamp TAKEN"},
+   {"id": 11, "text": "An old vulture, Jatayu, flew up to stop him, and fell.",
+    "spoken": "An old vulture, Jataayu, flew up to stop him, and fell.",
+    "hero": "highlight on Jatayu in the same painting", "typed": "JATAYU"}
+  ]},
+  {"take": "T04_the_search", "lines": [
+   {"id": 12, "text": "Searching the south, Rama found allies in the monkey king Sugriva and his minister, Hanuman.",
+    "spoken": "Searching the south, Rama found allies in the monkey king Sugreeva and his minister, Hanuman.",
+    "hero": "Hanuman painting; two name bars", "typed": "SUGRIVA · HANUMAN"},
+   {"id": 13, "text": "Hanuman leapt the sea, found Sita, and left Lanka burning.",
+    "spoken": "Hanuman leapt the sea, found Sita, and left Lanka burning.",
+    "hero": "route arcs from the shore to Lanka on the map", "typed": ""},
+   {"id": 14, "text": "Then the army built its bridge. And crossed.",
+    "spoken": "Then the army built its bridge. And crossed.",
+    "hero": "camera returns to the bridge folio from the cold open", "typed": ""}
+  ]},
+  {"take": "T05_close", "lines": [
+   {"id": 15, "text": "The war ended with one arrow, and Ravana fell.",
+    "spoken": "The war ended with one arrow, and Raavan fell.",
+    "hero": "battle folio; stamp on 'fell'", "typed": "stamp FALLEN"},
+   {"id": 16, "text": "Rama came home to Ayodhya, and the city lit lamps to greet him.",
+    "spoken": "Rama came home to Ayodhya, and the city lit lamps to greet him.",
+    "hero": "coronation painting; warm glow", "typed": ""},
+   {"id": 17, "text": "Every autumn, at Diwali, millions still light them.",
+    "spoken": "Every autumn, at Diwali, millions still light them.",
+    "hero": "big type DIWALI", "typed": "DIWALI"},
+   {"id": 18, "text": "The poet Valmiki told it in about twenty-four thousand verses.",
+    "spoken": "The poet Vaalmiki told it in about twenty-four thousand verses.",
+    "hero": "counter rolls to 24,000", "typed": "24,000 VERSES · VALMIKI"},
+   {"id": 19, "text": "More than two thousand years on, it is still being told.",
+    "spoken": "More than two thousand years on, it is still being told.",
+    "hero": "final pull-back over the whole board", "typed": ""}
+  ]}
+ ],
+ "fact_notes": [
+  "This is an epic, not history: every story line follows the Valmiki Ramayana's account (Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha kandas). Script narrates what the epic tells, in the present/past of the story.",
+  "Ravana, ten-headed king of Lanka (Dashanana) - Valmiki, Aranya and Yuddha Kanda.",
+  "Setu: the vanara army builds a bridge to Lanka; floating stones are the popular telling (Nala's construction in Yuddha Kanda; 'stones that float' is later tradition, widely cited). Keep 'floating stones' as tradition, or change to 'a bridge of stone' for strictness.",
+  "Rama lifts and breaks Shiva's bow at Janaka's court to win Sita - Bala Kanda.",
+  "Kaikeyi claims two boons from Dasharatha: Bharata crowned, Rama exiled 14 years - Ayodhya Kanda.",
+  "Golden deer is the demon Maricha in disguise - Aranya Kanda.",
+  "Ravana appears as a mendicant (sannyasi) and carries Sita off in the Pushpaka chariot through the sky; Jatayu fights and is mortally wounded - Aranya Kanda.",
+  "Sugriva, vanara king; Hanuman his minister - Kishkindha Kanda.",
+  "Hanuman leaps to Lanka, finds Sita in the Ashoka grove, sets Lanka on fire with his burning tail - Sundara Kanda.",
+  "Rama kills Ravana with the Brahmastra arrow - Yuddha Kanda.",
+  "Diwali is widely associated with Rama's return to Ayodhya, especially in north India (other regions tie it to other stories). 'Millions' is conservative.",
+  "Valmiki Ramayana: about 24,000 shlokas, traditionally counted; seven kandas.",
+  "Dating: scholars place the composition roughly between the 7th-5th century BCE and the 3rd century CE; 'more than two thousand years' is commonly cited.",
+  "Images planned (Wikimedia Commons, public domain): Raja Ravi Varma, 'Ravana abducting Sita' / Jatayu (c.1895); Mewar Ramayana folios (1649-53, British Library); Ravi Varma 'Sri Rama breaking the bow' / coronation prints; Kangra or Pahari Ramayana paintings for Hanuman and the battle."
+ ]
+}
