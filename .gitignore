@@ -11,3 +11,6 @@ films/*/audio/lines/
 films/*/audio/trimmed/
 films/*/audio/takes_scratch/
 films/*/audio/sfx.wav
+series/*/ep*/audio/beat_*.wav
+series/*/ep*/clips/
+series/*/ep*/out/

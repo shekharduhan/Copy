@@ -7,19 +7,27 @@
   "beats": [
    {
     "visual": "golden palace by the river Sarayu at dawn",
-    "text": "On the banks of the Sarayu stood Ayodhya, a city of peace and dharma. Its walls were high, its streets were wide, and no one in it went hungry."
+    "text": "On the banks of the Sarayu stood Ayodhya, a city of peace and dharma. Its walls were high, its streets were wide, and no one in it ever went hungry."
+   },
+   {
+    "visual": "busy streets of Ayodhya, merchants and elephants",
+    "text": "Merchants came from distant lands, elephants walked its roads, and the sound of the Vedas rose from every home."
    },
    {
     "visual": "King Dasharatha on his throne",
-    "text": "Its king, Dasharatha, had wealth, power and his people's love. He had three queens: Kausalya, Kaikeyi and Sumitra. But he had no son."
+    "text": "Its king, Dasharatha of the Sun dynasty, had wealth, power and his people's love. He had three queens: Kausalya, Kaikeyi and Sumitra. But he had no son."
    },
    {
-    "visual": "the king alone at night, worried",
-    "text": "Who would carry the line of the Sun after him? The question kept the old king awake."
+    "visual": "the king alone on a moonlit balcony, worried",
+    "text": "Who would carry the line of the Sun after him? The question kept the old king awake, night after night."
+   },
+   {
+    "visual": "Vasishtha advising the king",
+    "text": "His guru, Sage Vasishtha, gave him hope. On his advice, the king invited the great sage Rishyasringa."
    },
    {
     "visual": "sages around a sacred fire",
-    "text": "On Sage Vasishtha's advice, he called the great sage Rishyasringa and performed the Putrakameshti Yagna, the sacrifice for sons."
+    "text": "Together they performed the Putrakameshti Yagna, the sacred fire ritual for the blessing of sons."
    },
    {
     "visual": "a divine being rising from the flames with a golden bowl of kheer",
@@ -34,8 +42,8 @@
     "text": "Soon, all three queens were with child. And so began the story that would shape the world."
    }
   ],
-  "words": 145,
-  "est_seconds": 54.7
+  "words": 185,
+  "est_seconds": 59.1
  },
  {
   "ep": 2,
@@ -73,7 +81,7 @@
    }
   ],
   "words": 155,
-  "est_seconds": 58.4
+  "est_seconds": 49.6
  },
  {
   "ep": 3,
@@ -111,7 +119,7 @@
    }
   ],
   "words": 147,
-  "est_seconds": 55.5
+  "est_seconds": 47.2
  },
  {
   "ep": 4,
@@ -153,7 +161,7 @@
    }
   ],
   "words": 150,
-  "est_seconds": 56.5
+  "est_seconds": 48.4
  },
  {
   "ep": 5,
@@ -199,7 +207,7 @@
    }
   ],
   "words": 154,
-  "est_seconds": 58.0
+  "est_seconds": 50.0
  },
  {
   "ep": 6,
@@ -241,7 +249,7 @@
    }
   ],
   "words": 153,
-  "est_seconds": 57.6
+  "est_seconds": 49.3
  },
  {
   "ep": 7,
@@ -283,7 +291,7 @@
    }
   ],
   "words": 154,
-  "est_seconds": 58.0
+  "est_seconds": 49.6
  },
  {
   "ep": 8,
@@ -329,7 +337,7 @@
    }
   ],
   "words": 148,
-  "est_seconds": 55.8
+  "est_seconds": 48.2
  },
  {
   "ep": 9,
@@ -379,7 +387,7 @@
    }
   ],
   "words": 153,
-  "est_seconds": 57.6
+  "est_seconds": 50.0
  },
  {
   "ep": 10,
@@ -425,7 +433,7 @@
    }
   ],
   "words": 149,
-  "est_seconds": 56.2
+  "est_seconds": 48.5
  },
  {
   "ep": 11,
@@ -467,7 +475,7 @@
    }
   ],
   "words": 168,
-  "est_seconds": 63.1
+  "est_seconds": 53.8
  },
  {
   "ep": 12,
@@ -509,7 +517,7 @@
    }
   ],
   "words": 156,
-  "est_seconds": 58.7
+  "est_seconds": 50.2
  },
  {
   "ep": 13,
@@ -551,7 +559,7 @@
    }
   ],
   "words": 154,
-  "est_seconds": 58.0
+  "est_seconds": 49.6
  },
  {
   "ep": 14,
@@ -593,7 +601,7 @@
    }
   ],
   "words": 142,
-  "est_seconds": 53.6
+  "est_seconds": 46.1
  },
  {
   "ep": 15,
@@ -635,7 +643,7 @@
    }
   ],
   "words": 149,
-  "est_seconds": 56.2
+  "est_seconds": 48.1
  },
  {
   "ep": 16,
@@ -677,7 +685,7 @@
    }
   ],
   "words": 149,
-  "est_seconds": 56.2
+  "est_seconds": 48.1
  },
  {
   "ep": 17,
@@ -719,7 +727,7 @@
    }
   ],
   "words": 133,
-  "est_seconds": 50.4
+  "est_seconds": 43.4
  },
  {
   "ep": 18,
@@ -761,7 +769,7 @@
    }
   ],
   "words": 136,
-  "est_seconds": 51.5
+  "est_seconds": 44.3
  },
  {
   "ep": 19,
@@ -803,7 +811,7 @@
    }
   ],
   "words": 142,
-  "est_seconds": 53.6
+  "est_seconds": 46.1
  },
  {
   "ep": 20,
@@ -845,6 +853,6 @@
    }
   ],
   "words": 136,
-  "est_seconds": 51.5
+  "est_seconds": 44.3
  }
 ]

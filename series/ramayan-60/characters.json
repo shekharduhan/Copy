@@ -1,0 +1,11 @@
+{
+ "style": "1990s retro Japanese anime OVA style, cel-shaded, hand-painted background, dramatic cinematic lighting, deep shadows, rich warm colors, subtle film grain, epic Indian mythology, highly detailed, no text, no letters, no watermark",
+ "characters": {
+  "rama": {"match": ["Rama"], "desc": "Prince Rama: young man about 25, blue-tinged dark skin, calm compassionate eyes, long black hair tied up, golden crown, yellow silk dhoti, gold armlets, great bow"},
+  "dasharatha": {"match": ["Dasharatha", "the king", "old king"], "desc": "King Dasharatha: elderly king about 60, fair skin, white beard and moustache, tall jeweled golden crown, red and gold royal robes, pearl necklaces"},
+  "vasishtha": {"match": ["Vasishtha"], "desc": "Sage Vasishtha: very old sage, long white beard and white hair tied in a top knot, saffron robe, rudraksha beads, wooden staff, calm wise face"},
+  "kausalya": {"match": ["Kausalya", "Kaushalya"], "desc": "Queen Kausalya: gentle queen about 40, warm brown skin, soft kind face, cream and gold silk sari, small golden crown, long black hair in a braid"},
+  "kaikeyi": {"match": ["Kaikeyi"], "desc": "Queen Kaikeyi: striking proud queen about 35, fair skin, sharp eyes, deep red silk sari with gold border, heavy gold jewelry, tall crown"},
+  "sumitra": {"match": ["Sumitra"], "desc": "Queen Sumitra: serene queen about 38, brown skin, peaceful face, green silk sari with gold border, small golden crown"}
+ }
+}
