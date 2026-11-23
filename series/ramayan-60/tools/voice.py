@@ -7,7 +7,7 @@ import numpy as np, soundfile as sf
 import fal
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-VOICE_ID = json.loads((ROOT / "voice_minimax.json").read_text())["custom_voice_id"]   # cloned from voice_ref_clean.wav
+VOICE_ID = "Deep_Voice_Man"          # MiniMax stock voice chosen by the user (the cloned voice is in voice_minimax.json)
 SPEED = 0.9
 GAP, LEAD, TAIL = 0.5, 0.6, 1.2
 
@@ -31,7 +31,7 @@ def trim(x, sr, thr=0.01):
 def main(ep):
     eps = {e["ep"]: e for e in json.loads((ROOT / "episodes_60s.json").read_text())}
     e = eps[ep]; d = ROOT / f"ep{ep:02d}" / "audio"; d.mkdir(parents=True, exist_ok=True)
-    paths = [d / f"beat_{i+1:02d}_{hashlib.sha1(('mm' + b['text']).encode()).hexdigest()[:8]}.wav" for i, b in enumerate(e["beats"])]   # re-voice only changed text
+    paths = [d / f"beat_{i+1:02d}_{hashlib.sha1((VOICE_ID + b['text']).encode()).hexdigest()[:8]}.wav" for i, b in enumerate(e["beats"])]   # re-voice only changed text
     with cf.ThreadPoolExecutor(4) as ex:
         list(ex.map(beat_audio, [b["text"] for b in e["beats"]], paths))
     parts, t, timing, sr0 = [], LEAD, [], None
