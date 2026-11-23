@@ -12,6 +12,7 @@ from scipy.signal import butter, fftconvolve, sosfilt
 import soundfile as sf
 
 SR = 44100
+BREATH = 0.9
 SA = 146.83                                        # D3; flute plays two octaves up
 SCALES = {"calm": [0, 2, 4, 7, 9], "joy": [0, 2, 4, 7, 9], "grief": [0, 1, 3, 7, 8, 10], "tense": [0, 1, 3, 6, 7, 8]}
 
@@ -47,7 +48,7 @@ def flute_note(f0, f1, dur, rng, glide=0.12):
     tone = np.sin(ph) + 0.28 * np.sin(2 * ph) + 0.08 * np.sin(3 * ph) + 0.03 * np.sin(4 * ph)
     noise = rng.normal(0, 1, n)
     sos = butter(2, [min(f1 * 1.6, 9000), min(f1 * 3.2, 15000)], btype="band", fs=SR, output="sos")
-    breath = sosfilt(sos, noise) * 0.9
+    breath = sosfilt(sos, noise) * BREATH
     amp = env(n, 0.14, min(0.35, dur * 0.4)) * (0.85 + 0.15 * np.sin(2 * np.pi * 0.7 * tt))
     return (tone + breath) * amp
 
@@ -98,8 +99,15 @@ def reverb(x, rng, secs=2.2, mix=0.25):
     return (1 - mix) * x + mix * wet
 
 
-def make(T, seed=1, mood="calm"):
+def make(T, seed=1, mood="calm", solo=False):
+    global BREATH
     rng = np.random.default_rng(seed)
+    if solo:                                   # bansuri alone: no drone, no percussion, very little breath
+        BREATH = 0.12
+        fl = flute(T, rng, SCALES.get(mood, SCALES["calm"]))
+        mix = reverb(fl, rng, 2.8, 0.4) * env(int(T * SR), 2.0, 3.0)
+        st = np.stack([mix, np.roll(mix, int(0.015 * SR))], 1)
+        return st / (np.abs(st).max() + 1e-9) * 0.8
     scale = SCALES.get(mood, SCALES["calm"])
     tp, fl = tanpura(T, rng), flute(T, rng, scale)
     tb = tabla(T, rng, 66 if mood in ("calm", "grief") else 80)
@@ -112,7 +120,7 @@ def make(T, seed=1, mood="calm"):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("seconds", type=float); ap.add_argument("out")
-    ap.add_argument("--seed", type=int, default=1); ap.add_argument("--mood", default="calm")
+    ap.add_argument("--seed", type=int, default=1); ap.add_argument("--mood", default="calm"); ap.add_argument("--solo", action="store_true")
     a = ap.parse_args()
-    sf.write(a.out, make(a.seconds, a.seed, a.mood), SR)
+    sf.write(a.out, make(a.seconds, a.seed, a.mood, a.solo), SR)
     print(f"music: {a.out} ({a.seconds:.1f}s, {a.mood}, seed {a.seed})")
