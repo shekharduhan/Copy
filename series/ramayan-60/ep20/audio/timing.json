@@ -1,0 +1,54 @@
+{
+ "ep": 20,
+ "duration": 50.54,
+ "beats": [
+  {
+   "beat": 1,
+   "start": 0.6,
+   "end": 4.929,
+   "text": "At last, Bharata asked for one thing. 'Give me your sandals.'"
+  },
+  {
+   "beat": 2,
+   "start": 5.429,
+   "end": 10.7,
+   "text": "Rama agreed. He stepped onto a pair of golden sandals and gave them to his brother."
+  },
+  {
+   "beat": 3,
+   "start": 11.2,
+   "end": 16.278,
+   "text": "Bharata carried them on his head all the way home, as if he were carrying Rama himself."
+  },
+  {
+   "beat": 4,
+   "start": 16.778,
+   "end": 22.584,
+   "text": "'If you do not return on the very day the fourteen years end,' he said, 'I will enter the fire.'"
+  },
+  {
+   "beat": 5,
+   "start": 23.084,
+   "end": 30.683,
+   "text": "He placed them on the throne and ruled in Rama's name, as a servant. Every decision was first laid before the sandals."
+  },
+  {
+   "beat": 6,
+   "start": 31.183,
+   "end": 38.945,
+   "text": "He would not live in the palace. He lived in a simple hut at Nandigram, outside the city, wearing bark cloth and matted hair."
+  },
+  {
+   "beat": 7,
+   "start": 39.445,
+   "end": 43.64,
+   "text": "He lived like an ascetic for fourteen years, waiting for his brother."
+  },
+  {
+   "beat": 8,
+   "start": 44.14,
+   "end": 48.838,
+   "text": "And Rama, so that the people would stop coming, went deeper into the forest."
+  }
+ ]
+}

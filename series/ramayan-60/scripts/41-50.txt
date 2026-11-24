@@ -4,7 +4,7 @@ src: Valmiki, Sundara Kanda 2-3
 [Lanka's walls, moats and guards] Its walls were gold, its gates were guarded by thousands of demons with spears and bows, and its moats were full of crocodiles.
 [Hanuman shrinking to the size of a cat] So he waited for night. Then he shrank to the size of a cat and crept toward the gate in the moonlight.
 [Lankini, the guardian demoness, blocking him] Lankini, the guardian spirit of the city, stopped him. She was huge and terrible, with blazing eyes. 'No one enters Lanka,' she roared, 'without my permission.'
-[Hanuman striking her once with his left hand] Hanuman did not want to kill a woman. He struck her lightly, just once, with his left fist.
+[Hanuman striking her once with his left hand] Hanuman did not want to hurt her badly. He tapped her lightly, just once, with his left hand.
 [Lankini falling, remembering a prophecy] She fell, and remembered Brahma's old prophecy: 'When a monkey defeats you, Lanka's end is near.'
 [Lankini letting Hanuman pass] 'Go in, mighty one,' she said, 'and find the daughter of Janaka.'
 
@@ -21,7 +21,7 @@ src: Valmiki, Sundara Kanda 4-15
 ## 43 | Hanuman Meets Sita | A voice from the branches.
 src: Valmiki, Sundara Kanda 18-31
 [Ravana arriving in the garden at dawn with his queens] At dawn, Ravana came to the garden, surrounded by his queens and torchbearers, with music playing.
-[Ravana threatening Sita in the garden] 'Marry me,' he said, 'and all of Lanka is yours.' When she refused, he roared: 'Then in two months I will have you cut up for my breakfast.'
+[Ravana threatening Sita in the garden] 'Marry me,' he said, 'and all of Lanka is yours.' When she refused, he roared that she had two months to change her mind.
 [Sita, firm and unafraid] Sita placed a blade of grass between them and refused to even look at him. 'Rama will come, and you will die.'
 [Ravana leaving in a rage] Ravana stormed away. The demonesses taunted her until she was alone.
 [Trijata telling of her dream] Then an old demoness, Trijata, woke up shaking. 'I dreamed that Rama came on a white elephant, and Lanka sank into the sea. Do not harm her.'
@@ -77,7 +77,7 @@ src: Valmiki, Yuddha Kanda 9-19
 [the ministers mocking Vibhishana] The ministers laughed. Indrajit called him a coward.
 [Ravana kicking him from the throne] Ravana kicked him out of the court in a rage. 'You are an enemy dressed as a brother.'
 [Vibhishana crossing the sky to Rama's camp] Vibhishana flew across the sea with four loyal ministers to Rama's camp and asked for refuge.
-[the monkeys suspicious, Sugriva warning] Many advisors warned it was a trick. 'He is Ravana's brother,' Sugriva said. 'Kill him.'
+[the monkeys suspicious, Sugriva warning] Many advisors warned it was a trick. 'He is Ravana's brother,' Sugriva said. 'Do not trust him.'
 [Hanuman speaking for Vibhishana] Only Hanuman spoke for him. 'I have seen his heart. He is good.'
 [Rama welcoming him] But Rama said, 'I never turn away someone who seeks shelter. Even if Ravana himself came to me, I would protect him.'
 [Rama crowning Vibhishana with seawater] He crowned Vibhishana king of Lanka that day, with water from the sea.

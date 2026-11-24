@@ -1,0 +1,54 @@
+{
+ "ep": 18,
+ "duration": 53.41,
+ "beats": [
+  {
+   "beat": 1,
+   "start": 0.6,
+   "end": 5.432,
+   "text": "Far away in his uncle's kingdom, Bharata had a terrible dream about his father."
+  },
+  {
+   "beat": 2,
+   "start": 5.932,
+   "end": 12.251,
+   "text": "Bharata was away when all this happened. Messengers called him home in haste, without telling him why."
+  },
+  {
+   "beat": 3,
+   "start": 12.751,
+   "end": 19.424,
+   "text": "He felt something was wrong the moment he saw the silent city. No one greeted him. No one smiled."
+  },
+  {
+   "beat": 4,
+   "start": 19.924,
+   "end": 26.86,
+   "text": "Kaikeyi proudly told him: 'Your father is gone. Rama is in exile. The throne is yours.'"
+  },
+  {
+   "beat": 5,
+   "start": 27.36,
+   "end": 35.131,
+   "text": "Bharata was shattered. 'You have destroyed my family for my sake? You are no mother of mine! I want nothing of this.'"
+  },
+  {
+   "beat": 6,
+   "start": 35.631,
+   "end": 40.379,
+   "text": "He ran to Kaushalya, fell at her feet and swore he had known nothing of the plot."
+  },
+  {
+   "beat": 7,
+   "start": 40.879,
+   "end": 46.321,
+   "text": "He performed his father's last rites with Shatrughna, weeping beside the funeral fire."
+  },
+  {
+   "beat": 8,
+   "start": 46.821,
+   "end": 51.707,
+   "text": "When the ministers offered him the crown, he refused it. He set out to bring his brother home."
+  }
+ ]
+}

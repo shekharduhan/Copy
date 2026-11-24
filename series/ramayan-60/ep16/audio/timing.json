@@ -1,0 +1,54 @@
+{
+ "ep": 16,
+ "duration": 56.62,
+ "beats": [
+  {
+   "beat": 1,
+   "start": 0.6,
+   "end": 6.147,
+   "text": "The people of Ayodhya would not turn back, so Rama left quietly at night while they slept."
+  },
+  {
+   "beat": 2,
+   "start": 6.647,
+   "end": 13.459,
+   "text": "At the Ganga, the boatman king Guha of Shringaverapura welcomed Rama as a dear friend."
+  },
+  {
+   "beat": 3,
+   "start": 13.959,
+   "end": 22.934,
+   "text": "He brought food and offered his whole kingdom. Rama refused gently. He had a vow to keep: no royal comforts for fourteen years."
+  },
+  {
+   "beat": 4,
+   "start": 23.434,
+   "end": 31.218,
+   "text": "Later tellings say the boatman washed Rama's feet before letting him in the boat, in case his touch turned the boat into a woman, as it had Ahalya."
+  },
+  {
+   "beat": 5,
+   "start": 31.718,
+   "end": 37.225,
+   "text": "Rama sent the minister Sumantra home with the empty chariot and a message of love for his father."
+  },
+  {
+   "beat": 6,
+   "start": 37.725,
+   "end": 43.647,
+   "text": "Guha rowed them across. Sita folded her hands and prayed to the Ganga for their safe return."
+  },
+  {
+   "beat": 7,
+   "start": 44.147,
+   "end": 49.902,
+   "text": "On the far bank, Rama and Lakshmana matted their hair with the sap of a banyan tree."
+  },
+  {
+   "beat": 8,
+   "start": 50.402,
+   "end": 54.922,
+   "text": "Here Rama gave up the last sign of royalty and became a forest sage."
+  }
+ ]
+}

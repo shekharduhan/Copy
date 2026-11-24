@@ -1,0 +1,54 @@
+{
+ "ep": 15,
+ "duration": 60.39,
+ "beats": [
+  {
+   "beat": 1,
+   "start": 0.6,
+   "end": 9.2,
+   "text": "Rama asked Sita to stay behind. 'The forest is hard and dangerous. There are snakes, wild beasts, thorns and demons.'"
+  },
+  {
+   "beat": 2,
+   "start": 9.7,
+   "end": 17.242,
+   "text": "'Where you are is my home,' she said. 'Even a palace without you is a jungle. With you, the forest will be a garden.'"
+  },
+  {
+   "beat": 3,
+   "start": 17.742,
+   "end": 26.666,
+   "text": "When Rama still refused, she wept and declared she would die rather than be left behind. At last, Rama agreed."
+  },
+  {
+   "beat": 4,
+   "start": 27.166,
+   "end": 34.924,
+   "text": "Lakshmana too refused to be left behind. 'I will walk ahead of you with my bow,' he said. 'I will serve you day and night.'"
+  },
+  {
+   "beat": 5,
+   "start": 35.424,
+   "end": 42.921,
+   "text": "His mother Sumitra blessed him: 'Think of Rama as your father, Sita as your mother, and the forest as Ayodhya.'"
+  },
+  {
+   "beat": 6,
+   "start": 43.421,
+   "end": 48.542,
+   "text": "The three left Ayodhya in bark cloth, in the chariot of the minister Sumantra."
+  },
+  {
+   "beat": 7,
+   "start": 49.042,
+   "end": 52.722,
+   "text": "The whole city followed them in tears, running behind the chariot."
+  },
+  {
+   "beat": 8,
+   "start": 53.222,
+   "end": 58.689,
+   "text": "Behind them, the old king fell in the dust, watching until the chariot was gone."
+  }
+ ]
+}
