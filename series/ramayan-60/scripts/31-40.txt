@@ -1,9 +1,7 @@
 ## 31 | Kabandha | A clue in the darkness.
 src: Valmiki, Aranya Kanda 69-73
 [Rama and Lakshmana searching the forest] Rama and Lakshmana searched everywhere for Sita, calling her name through forests and mountains. Rama asked the trees, the rivers and the deer if they had seen her.
-[a dark, tangled forest, no birds] They entered a forest so thick and dark that no sunlight reached the ground, and not a single bird sang.
 [a huge headless demon with long arms] Suddenly, a giant demon named Kabandha seized them in his arms. He had no head or neck. His mouth was in his belly, and a single fiery eye glowed in his chest.
-[Kabandha's arms stretching for miles] His arms stretched for miles, and he caught anything that walked into them, and ate it.
 [the brothers cutting off his arms] Rama cut off the right arm, Lakshmana the left. Kabandha crashed to the ground and cried out in relief.
 [Kabandha telling his story] 'I was a celestial named Danu,' he said. 'Indra struck me with his thunderbolt and drove my head into my body. Only you could free me.'
 [a radiant being rising from the funeral fire] The brothers burned his body on a great fire. From the flames rose a radiant being, shining in a celestial chariot.
@@ -13,7 +11,6 @@ src: Valmiki, Aranya Kanda 69-73
 src: Valmiki, Aranya Kanda 74 (the tasted berries come from later retellings)
 [an old woman sweeping a forest path] Near Lake Pampa lived Shabari, an aged devotee who had waited years for Rama. She was a tribal woman, born far from any palace.
 [Shabari as a young girl leaving home] As a young girl, she had run away from home to serve the sage Matanga. Before he died, he told her: 'Wait here. One day, Rama will come.'
-[Shabari growing old in the ashram] So she waited. Years became decades. Her hair turned white. Every morning, she swept the path and scattered flowers, in case today was the day.
 [Shabari carrying a basket of berries] Each day she gathered the sweetest berries, tasting each one to be sure it was good, as later tellings lovingly say.
 [Shabari seeing Rama arrive] And one day, two princes walked up the path. Shabari fell at Rama's feet, weeping.
 [Rama eating the berries with joy] When Rama finally came, he happily ate the berries she had already tasted. Lakshmana hesitated. Rama did not.
@@ -39,7 +36,6 @@ src: Valmiki, Kishkindha Kanda 5-8
 [Vali returning in rage] But Vali returned alive, and never forgave him. 'Help me,' Sugriva said, 'and my army will find Sita.'
 [Rama nodding] Rama promised to defeat Vali.
 [Sugriva showing Sita's jewels] Then Sugriva showed him the jewels Sita had dropped as she was carried away, wrapped in her yellow scarf.
-[Rama holding the jewels and weeping] Rama held them and wept. He asked Lakshmana if he knew them.
 [Lakshmana looking at the anklets] Lakshmana said: 'I do not know her earrings or bracelets. I only ever looked at her feet. These anklets are hers.'
 
 ## 35 | The Fall of Vali | Sugriva is king.
@@ -81,7 +77,6 @@ src: Valmiki, Kishkindha Kanda 56-63, 65-66
 [Sampati hungry, eyeing the monkeys] At first he was glad. 'Food has come to me,' he said. Then he heard them speak of Jatayu's death, and he cried out.
 [Sampati telling his story] Long ago, he and Jatayu had raced toward the sun. Sampati spread his wings to shield his brother, and the sun burned them away.
 [Sampati pointing across the sea] With his sharp vulture eyes he saw far across the ocean. 'I see Lanka,' he said, 'and a woman weeping in a garden.'
-[Sampati's new wings growing] As he helped Rama's cause, new wings began to grow from his body, and he flew away, joyful.
 [the monkeys staring at the endless sea] Lanka was a hundred yojanas away across the water. One said he could jump ten. Another, fifty. Angada could jump the distance, but not return.
 [old Jambavan turning to Hanuman] Jambavan, the wise old bear, knew who could.
 [Hanuman sitting silently apart] He turned to Hanuman, who sat alone, saying nothing.

@@ -7,7 +7,7 @@ Format per episode:
 """
 import json, pathlib, re, sys
 HERE = pathlib.Path(__file__).parent
-WPS = 2.49          # cloned voice (MiniMax speech-02-hd at speed 0.9), speech only, measured on episode 1
+WPS = 2.50          # MiniMax Deep_Voice_Man at speed 0.9, speech only, measured on episode 1
 eps = []
 for f in sorted((HERE / "scripts").glob("*.txt")):
     for block in re.split(r"^## ", f.read_text(), flags=re.M)[1:]:

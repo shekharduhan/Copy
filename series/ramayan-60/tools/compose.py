@@ -94,12 +94,15 @@ def shot_list(ep, beats, total, img_dir):
         t1 = total if i == len(beats) - 1 else beats[i + 1]["start"] - 0.2
         mid = t0 + (t1 - t0) * 0.5
         for sh, (a, z) in (("a", (t0, mid)), ("b", (mid, t1))):
-            f = shot_path(img_dir, beat, sh); up = f.with_name(f.stem + "_up.png")
-            shots.append(((up if up.exists() else f), a, z))
+            f = shot_path(img_dir, beat, sh); close = False
+            if not f.exists():                       # no paid close-up: crop one from the wide image
+                f = shot_path(img_dir, beat, "a"); close = True
+            up = f.with_name(f.stem + "_up.png")
+            shots.append(((up if up.exists() else f), a, z, close))
     return shots
 
 
-def frame_at(img, move, u):
+def frame_at(img, move, u, close=False):
     """Crop window for progress u in [0,1]: ease in/out, zoom 1.0-1.10, or a 7% drift at zoom 1.08."""
     import numpy as np
     from PIL import Image
@@ -111,8 +114,10 @@ def frame_at(img, move, u):
         z = 1.08; k = (e - 0.5) * 0.07
         dx = k * iw if move in ("left", "right") else 0.0; dy = k * ih if move in ("up", "down") else 0.0
         if move in ("left", "up"): dx, dy = -dx, -dy
+    if close:
+        z *= 1.45                                    # a close-up cropped from the wide image, aimed a little above centre
     s = base * z; cw, ch = W / s, H / s
-    cx, cy = iw / 2 + dx * 0.5, ih / 2 + dy * 0.5
+    cx, cy = iw / 2 + dx * 0.5, ih / 2 + dy * 0.5 - (ih * 0.08 if close else 0)
     cx = min(max(cx, cw / 2), iw - cw / 2); cy = min(max(cy, ch / 2), ih - ch / 2)
     x0, y0 = cx - cw / 2, cy - ch / 2
     return img.transform((W, H), Image.AFFINE, (cw / W, 0, x0, 0, ch / H, y0), resample=Image.BICUBIC)
@@ -122,17 +127,17 @@ def render_stills(ep, beats, total, img_dir, out):
     import numpy as np
     from PIL import Image
     shots = shot_list(ep, beats, total, img_dir)
-    imgs = [Image.open(f).convert("RGB") for f, _, _ in shots]
+    imgs = [Image.open(f).convert("RGB") for f, _, _, _ in shots]
     enc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                             "-i", "-", "-vf", "eq=saturation=1.05:contrast=1.03,vignette=PI/6", "-c:v", "libx264", "-preset", "veryfast",
                             "-crf", "16", "-pix_fmt", "yuv420p", str(out)], stdin=subprocess.PIPE)
     n = int(round(total * FPS))
     for k in range(n):
         t = k / FPS
-        i = max(j for j, (_, a, _) in enumerate(shots) if a <= t + 1e-6)
+        i = max(j for j, (_, a, _, _) in enumerate(shots) if a <= t + 1e-6)
         def render(j):
-            _, a, z = shots[j]; a2 = a - (XFADE if j else 0); u = min(max((t - a2) / (z - a2 + XFADE), 0), 1)
-            return np.asarray(frame_at(imgs[j], MOVES[j % len(MOVES)], u), dtype=np.float32)
+            _, a, z, close = shots[j]; a2 = a - (XFADE if j else 0); u = min(max((t - a2) / (z - a2 + XFADE), 0), 1)
+            return np.asarray(frame_at(imgs[j], MOVES[j % len(MOVES)], u, close), dtype=np.float32)
         fr = render(i)
         if i + 1 < len(shots) and t > shots[i + 1][1] - XFADE:            # crossfade into the next shot
             w = (t - (shots[i + 1][1] - XFADE)) / XFADE; w = w * w * (3 - 2 * w)

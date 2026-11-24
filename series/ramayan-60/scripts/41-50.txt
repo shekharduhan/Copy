@@ -2,10 +2,8 @@
 src: Valmiki, Sundara Kanda 2-3
 [golden Lanka glowing on the horizon] At last Hanuman landed on Mount Lamba in Lanka, a city of gold with towering walls, built on a mountain peak in the middle of the sea.
 [Lanka's walls, moats and guards] Its walls were gold, its gates were guarded by thousands of demons with spears and bows, and its moats were full of crocodiles.
-[Hanuman studying the city from a hilltop] Hanuman studied the city. Even the gods could not enter it by force, he thought. He would have to go in secret.
 [Hanuman shrinking to the size of a cat] So he waited for night. Then he shrank to the size of a cat and crept toward the gate in the moonlight.
 [Lankini, the guardian demoness, blocking him] Lankini, the guardian spirit of the city, stopped him. She was huge and terrible, with blazing eyes. 'No one enters Lanka,' she roared, 'without my permission.'
-[Lankini striking at Hanuman] She struck at him with her hand.
 [Hanuman striking her once with his left hand] Hanuman did not want to kill a woman. He struck her lightly, just once, with his left fist.
 [Lankini falling, remembering a prophecy] She fell, and remembered Brahma's old prophecy: 'When a monkey defeats you, Lanka's end is near.'
 [Lankini letting Hanuman pass] 'Go in, mighty one,' she said, 'and find the daughter of Janaka.'
@@ -15,7 +13,6 @@ src: Valmiki, Sundara Kanda 4-15
 [Hanuman searching Ravana's palace at night] Hanuman searched Ravana's palace room by room, past drunken guards, dancing halls and golden chambers, but found no Sita.
 [Hanuman seeing Ravana asleep among his queens] He saw Ravana asleep, surrounded by beautiful queens. For a moment he thought one was Sita, then shook his head. 'Sita would never sleep here, happy.'
 [Hanuman sitting in despair on a wall] He searched every house in Lanka. Nothing. He sat on a wall in despair. Had she died? Had he failed Rama?
-[Hanuman praying to Rama] Then he bowed and prayed to Rama, to Sita and to the gods, and rose to search once more.
 [Hanuman gazing at a garden of Ashoka trees] At last he saw a garden of Ashoka trees, glowing in the moonlight.
 [a thin, pale woman in plain clothes under a tree] Beneath one tree sat a thin, pale woman in plain, dusty yellow clothes, her hair in a single braid, her eyes full of tears.
 [Sita surrounded by demonesses] Ferocious demonesses guarded her, with the faces of horses, boars and buffaloes. She wept, whispering Rama's name.
@@ -28,7 +25,6 @@ src: Valmiki, Sundara Kanda 18-31
 [Sita, firm and unafraid] Sita placed a blade of grass between them and refused to even look at him. 'Rama will come, and you will die.'
 [Ravana leaving in a rage] Ravana stormed away. The demonesses taunted her until she was alone.
 [Trijata telling of her dream] Then an old demoness, Trijata, woke up shaking. 'I dreamed that Rama came on a white elephant, and Lanka sank into the sea. Do not harm her.'
-[Sita alone, thinking of ending her life] Alone, Sita held her braid and thought of ending her sorrow.
 [Hanuman softly singing Rama's story from the tree] Then a gentle voice from the tree began to sing the story of Rama: Ayodhya, the exile, the golden deer, the search.
 [Sita looking up in wonder] Sita looked up and saw a small monkey among the leaves, his hands folded.
 
@@ -36,7 +32,6 @@ src: Valmiki, Sundara Kanda 18-31
 src: Valmiki, Sundara Kanda 32-40
 [Sita afraid it is a trick] At first, Sita was afraid. Was this Ravana in disguise again?
 [Hanuman dropping Rama's ring into Sita's hands] Hanuman climbed down, bowed, and dropped Rama's ring into her lap. She saw Rama's name on it and wept with joy, as if she had seen Rama himself.
-[Sita doubting, then trusting] She wondered if this was another demon's trick, but Hanuman's kind words and his love for Rama won her trust.
 [Hanuman describing Rama's grief] He told her how Rama could not sleep or eat, and spoke her name every night.
 [Hanuman offering to carry her away] He offered to carry her back right then, on his back, across the ocean.
 [Sita refusing, explaining] 'No,' said Sita. 'Rama must come and rescue me himself, for his honor. And I will not willingly touch another man.'
@@ -95,7 +90,6 @@ src: Valmiki, Yuddha Kanda 21-22 (the stones marked 'Ram' and the squirrel come 
 [monkeys uprooting trees and mountains] Monkeys uprooted trees and broke off whole mountain peaks and threw them into the sea.
 [monkeys carrying boulders marked 'Ram'] Later tellings say each stone was marked with Rama's name, and so it floated.
 [a small squirrel helping, Rama stroking it] Even a little squirrel rolled in the sand and shook it onto the bridge. Rama stroked its back, and the three lines on squirrels, they say, are his fingers.
-[the bridge growing across the sea] On the first day, fourteen yojanas. On the fifth day, the bridge reached Lanka.
 [the army crossing the finished bridge] In five days, the bridge to Lanka was ready, and the army crossed.
 
 ## 50 | Angada's Mission | War is declared.

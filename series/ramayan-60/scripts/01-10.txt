@@ -13,12 +13,9 @@ src: Valmiki, Bala Kanda 5-16
 src: Valmiki, Bala Kanda 18-19
 [palace celebrations, flowers and drums] In the month of Chaitra, on the ninth day, Queen Kaushalya gave birth to Rama, the embodiment of dharma. Today that day is celebrated as Ram Navami.
 [baby Rama glowing in a golden cradle] Kaikeyi gave birth to Bharata. Sumitra gave birth to twins, Lakshmana and Shatrughna.
-[Ayodhya celebrating in the streets] Ayodhya danced for days. Musicians played, and the king gave away cows and gold.
 [four boys playing in the palace garden] The four grew up inseparable. Lakshmana's heart belonged to Rama, and Shatrughna's to Bharata. Lakshmana would not even eat unless Rama was beside him.
 [lessons at Vasishtha's gurukul] Under Sage Vasishtha they mastered the Vedas, archery, riding elephants and chariots, and the duties of a righteous king.
 [young Rama helping a villager] Yet Rama was loved for more than his skill. Even as a boy he was kind to everyone, and he always spoke first, with a smile.
-[the royal astrologers reading the stars] The royal astrologers read the stars at Rama's birth. 'This child,' they said, 'will be loved in every age that comes after him.'
-[the naming ceremony with Vasishtha] On the twelfth day, Sage Vasishtha named the four princes: Rama, who brings joy; Bharata, who sustains; Lakshmana and Shatrughna.
 [Dasharatha watching his sons with pride] The old king looked at his four sons and felt that every one of his prayers had been answered. He did not know how soon the world would come asking for them.
 
 ## 3 | Vishwamitra and Tataka | Rama's first victory.
@@ -29,7 +26,6 @@ src: Valmiki, Bala Kanda 18-26
 [Vasishtha calming the king] But Vasishtha reminded him: a king's word cannot be broken. So Rama and Lakshmana went willingly.
 [princes walking behind the sage along the river] On the road, Vishwamitra taught them the mantras Bala and Atibala, so they would never feel hunger, thirst or tiredness, and then the secrets of divine weapons.
 [Tataka charging out of the forest] Then came Tataka, a fearsome demoness with the strength of a thousand elephants, who had turned a whole land into a wilderness.
-[Rama and Lakshmana sleeping on grass under the stars] That night, the two princes slept on a bed of grass beneath the stars, far from the palace for the first time in their lives.
 [Rama's arrow flying] Rama hesitated to strike a woman, but the sage said a protector's duty comes first. Rama's arrow struck true. The forest was free again.
 
 ## 4 | Siddhashrama | Maricha will return…
@@ -40,8 +36,6 @@ src: Valmiki, Bala Kanda 29-30
 [Rama's bow drawn, glowing arrow] Rama did not panic. He fitted the Manava astra to his bow.
 [Maricha flung across the ocean] It struck Maricha in the chest and hurled him a hundred yojanas, far across the ocean. Rama had chosen not to kill him.
 [Subahu falling in flames] Then the Agni astra struck Subahu, and he fell. With the Vayu astra, Rama swept the rest of the demons away.
-[sages celebrating] The yagna was complete. The sages were free, and they blessed the two young princes.
-[Vishwamitra giving the princes celestial weapons] Before the yagna, Vishwamitra had given them the celestial weapons, each one appearing before Rama as a shining being with folded hands.
 [Maricha alone on a distant shore, trembling] But far away, Maricha woke up on a lonely shore, shaking. He would never forget that arrow.
 
 ## 5 | Ahalya | Rama's grace frees all.
@@ -53,19 +47,15 @@ src: Valmiki, Bala Kanda 48-49 (the stone form comes from later retellings)
 [Rama stepping in, light spreading] As Rama entered, the curse broke. Ahalya appeared, radiant and free, shining like the moon behind clouds.
 [Rama and Lakshmana touching her feet] Rama and Lakshmana bowed and touched her feet, as one honors a mother.
 [Ahalya bowing, flowers falling from the sky] She bowed in gratitude. Flowers fell from the sky, and divine drums sounded.
-[Gautama returning to the ashram] Sage Gautama returned and took her back with honor. The empty ashram came alive again.
-[the three walking along the Ganga, Vishwamitra telling stories] On the way, Vishwamitra told them ancient stories of the Ganga, and of the kings of their own line, while the river shone beside them.
 [Rama walking on toward Mithila] Rama had not fought anyone, yet he had won his gentlest victory. Her long penance had ended.
 
 ## 6 | Mithila and Shiva's Bow | Destiny was closing in.
 src: Valmiki, Bala Kanda 50, 66-67
 [the grand city of Mithila] King Janaka of Mithila welcomed the princes with honor. He was a king and a sage at once, wise and gentle.
-[Janaka asking about the two princes] He could not take his eyes off the two young men. 'Who are these princes, who walk like lions?' he asked.
 [a giant bow on an iron cart pulled by many men] In his palace lay Shiva's mighty bow, so heavy that it took hundreds of men to pull it on its eight-wheeled cart. Not even gods and demons could lift it.
 [kings failing to lift the bow] Many kings had come for it. Not one could even raise it off the ground.
 [Janaka making his announcement] Janaka had made a vow: whoever strings this bow will marry my daughter, Sita.
 [Vishwamitra smiling at Rama] Vishwamitra turned to Rama and smiled. He knew exactly why he had brought Rama here.
-[Janaka telling the story of the bow] Janaka told them its story. Long ago, Shiva had given this bow to Janaka's ancestor, and it had been worshipped ever since.
 [Rama and Lakshmana looking at the bow in awe] Rama looked at the bow and said quietly, 'May I touch it?' Janaka nodded, and the whole court held its breath.
 [the bow's box being opened, golden light] Now the great box was opened. Rama stepped closer, and the whole hall fell silent.
 
@@ -78,8 +68,6 @@ src: Valmiki, Bala Kanda 66 (the casket and the bow as a toy are from later rete
 [the baby in the palace, flowers around her] He named her Sita, meaning 'furrow.' Born of the Earth, she was raised as his own daughter, and loved by all of Mithila.
 [young Sita lifting the heavy bow with ease] Later tellings say that as a girl, she once moved Shiva's bow aside like a toy while cleaning the room.
 [Janaka staring in wonder] Janaka saw it and knew she was no ordinary child. Only a man who could string that same bow would be worthy of her.
-[the earth glowing around the furrow] As the child appeared, a voice from the sky said, 'This is your daughter, Janaka.' Flowers fell on the field.
-[grown Sita in the palace garden] Sita grew into a princess of grace and quiet strength, and kings from every land asked for her hand. Janaka refused them all, and waited.
 
 ## 8 | The Swayamvar | Two souls, one destiny.
 src: Valmiki, Bala Kanda 67-73 (Ravana at the contest is from later retellings)
@@ -89,9 +77,7 @@ src: Valmiki, Bala Kanda 67-73 (Ravana at the contest is from later retellings)
 [Rama lifting the bow with one hand] He lifted it as if it were light, and the whole court gasped.
 [the bow snapping, thunder] As he drew the string to his ear, the bow broke in two, with a crack like thunder that shook Mithila. People fell to the ground in fear.
 [Janaka rising in joy] Janaka rose, tears in his eyes. 'My vow is fulfilled. Sita will marry Rama.'
-[Sita walking forward with a garland] Sita walked forward slowly, her eyes lowered.
 [Sita placing the garland] She placed the garland around Rama's neck, and the sky rained flowers.
-[the kings who failed, glaring in jealousy] Some of the kings who had failed glared at Rama in anger. But no one dared to challenge him now.
 [Rama and Sita's eyes meeting] Their eyes met for a moment. Ancient tellings say they were Vishnu and Lakshmi, finding each other again on earth.
 
 ## 9 | Four Weddings | Two kingdoms became one family.
@@ -100,12 +86,10 @@ src: Valmiki, Bala Kanda 68-73
 [Dasharatha arriving with his court] Dasharatha arrived with his whole court, his army and his sages. The two kings embraced like brothers.
 [Janaka with his daughters and nieces] Janaka made a joyful offer: his daughters and his nieces for all four princes.
 [the brides side by side] Sita to Rama, Urmila to Lakshmana. Janaka's brother Kushadhwaja's daughters, Mandavi and Shrutakirti, to Bharata and Shatrughna.
-[the wedding hall decorated with banana leaves and lamps] The wedding hall glowed with lamps, and the sages chanted as the auspicious hour arrived under the star Uttara Phalguni.
 [four couples at the fire] Four brothers married four sisters in one grand ceremony. They walked around the sacred fire together.
 [Sita and Rama at the fire] As Janaka placed Sita's hand in Rama's, he said: 'She will follow you like your shadow.'
 [gods showering flowers] Flowers fell from the sky, and divine drums sounded.
 [Vishwamitra leaving for the Himalayas] His task complete, Vishwamitra blessed the couples and left for the Himalayas.
-[Dasharatha and Janaka embracing at the gates] At the gates of Mithila, the two old kings embraced. 'Our families are joined forever,' Janaka said.
 [Mithila celebrating] The whole city sang and danced for days. Janaka sent his daughters off with gold, silk, elephants and horses, and many tears.
 
 ## 10 | Parashurama | Rama's power was divine.
@@ -117,7 +101,5 @@ src: Valmiki, Bala Kanda 74-76
 [Rama taking the bow calmly] Rama took the bow, strung it, and fixed an arrow in one smooth motion.
 [Rama aiming at Parashurama] 'This arrow cannot go to waste,' said Rama. 'Shall I destroy your path, or the worlds you have won by your penance?'
 [Parashurama bowing his head] Parashurama recognized the truth. He bowed, gave up his worlds to the arrow, and withdrew in peace.
-[the sky clearing, procession moving on] The storm passed. Dasharatha held his son close, as if he had been born again.
 [Parashurama's eyes softening as he recognizes Vishnu] Looking into Rama's eyes, Parashurama saw Lord Vishnu himself, and his anger melted away.
-[Ayodhya welcoming the brides] The procession entered Ayodhya to music and joy, and the queens welcomed their four new daughters home.
 

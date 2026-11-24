@@ -44,7 +44,6 @@ src: Valmiki, Yuddha Kanda 74, 101
 
 ## 55 | Kumbhakarna | A giant who stayed loyal.
 src: Valmiki, Yuddha Kanda 60-67
-[Ravana ordering his sleeping giant brother woken] Losing the war, Ravana ordered his sleeping giant brother woken.
 [Kumbhakarna asleep in a vast cave-palace] Ravana's brother Kumbhakarna slept for six months at a time, by a boon gone wrong. He had meant to ask Brahma for Indra's throne, but his tongue slipped, and he asked for sleep.
 [demons waking him with drums and elephants] The demons woke him with drums, conches and elephants marching over his body. They fed him mountains of food.
 [Kumbhakarna advising Ravana] He told Ravana the truth: 'Sita's capture was wrong. Return her.'
@@ -91,7 +90,6 @@ src: Valmiki, Yuddha Kanda 112-118
 [Sita walking out of the Ashok Vatika] After the war, Hanuman brought word of victory to Sita. She was free at last. She could not speak for joy.
 [Sita bathed and dressed in a palanquin] She was bathed, dressed in fine clothes and jewels, and brought to Rama in a palanquin.
 [Rama seeing Sita, silent and still] When they met, Rama asked her to prove her purity before the world, for the sake of the people's trust.
-[Sita in shock, tears falling] Sita was shocked. She had waited for him through a year of terror.
 [Sita asking Lakshmana to build a pyre] Sita, hurt but unbroken, asked Lakshmana to build a fire. 'If my heart has never left Rama, may Agni protect me.'
 [Sita stepping into the fire] She walked around Rama, folded her hands, and stepped into the fire. Everyone cried out.
 [Agni, the fire god, lifting Sita unharmed] Agni himself rose from the flames and returned her to Rama. Not a hair was burnt, not a flower in her garland faded. 'She is pure,' he said.

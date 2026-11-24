@@ -9,15 +9,26 @@ C = json.loads((ROOT / "characters.json").read_text())
 REF_CACHE = {}
 
 
-def cast(visual):
+def in_eps(c, n):
+    rng = [c.get("eps", [1, 999])] + ([c["also_eps"]] if "also_eps" in c else [])
+    return any(lo <= n <= hi for lo, hi in rng)
+
+
+CHILD = re.compile(r"\b(baby|babies|boy|boys|child|children|young Rama|girl|infant|cradle)\b", re.I)
+
+
+def cast(visual, n=1):
+    if CHILD.search(visual):           # adult reference portraits would turn children into adults
+        return []
     found = []
     for name, c in C["characters"].items():
-        if any(re.search(r"\b" + re.escape(m) + r"\b", visual, re.I) for m in c["match"]) and (ROOT / "characters" / f"{name}.png").exists():
+        if in_eps(c, n) and any(re.search(r"\b" + re.escape(m) + r"\b", visual, re.I) for m in c["match"]) and (ROOT / "characters" / f"{name}.png").exists():
             found.append(name)
     return found[:4]
 
 
-SHOTS = {"a": "Wide establishing shot.", "b": "Closer shot from a different camera angle, focusing on faces, hands and expressions."}
+SHOTS = {"a": "Cinematic medium-wide shot with the main figures clearly visible."}   # the close-up is cropped from this image
+MAX_REF_SHOTS = 4      # consistent-character (paid) images per episode; the rest use Flux Schnell
 
 
 def shot_path(d, beat, shot):
@@ -28,27 +39,34 @@ def shot_path(d, beat, shot):
 def prompt_for(ep, beat, names, shot="a"):
     who = "; ".join(C["characters"][n]["desc"] for n in names)
     framing = SHOTS[shot] if (names or shot == "a") else "Closer detail shot of the same place and its ordinary people; no princes, queens or heroes."
-    p = (f"{C['style']}. Vertical 9:16 cinematic frame from the Ramayana, episode '{ep['title']}'. Scene: {beat['visual']}. {framing} "
+    p = (f"{C['style']}. Vertical 9:16 cinematic frame from the Ramayana. Scene: {beat['visual']}. {framing} "
          )   # the narration is left out on purpose: models paint it onto the image as text
     if names:
         p += f"Characters (keep their faces, clothes and colors exactly as in the reference images): {who}. "
-    return p + "Ancient India, epic and emotional, characters fully clothed. Absolutely no text, captions, letters or subtitles anywhere in the image."
+    if CHILD.search(beat["visual"]):
+        p += "The children are small, clearly young kids. "
+    return p + "Ancient India, epic and emotional, characters fully clothed. No signboards, banners or writing; absolutely no text, captions, letters or subtitles anywhere in the image."
 
 
-def still(ep, beat, shot, dst):
+def still(ep, beat, shot, dst, use_refs=True):
     if dst.exists():
         return dst.name, "exists"
-    names = cast(beat["visual"])
+    names = cast(beat["visual"], ep["ep"])
     p = prompt_for(ep, beat, names, shot)
     tries = []
-    if names:
+    if names and not use_refs:          # over the per-episode cap: describe the characters in words only
+        tries.append(("fal-ai/flux/schnell", {"prompt": p, "image_size": {"width": 768, "height": 1344}, "num_images": 1, "num_inference_steps": 4}))
+    elif names:
         refs = [REF_CACHE.setdefault(n, fal.data_uri(ROOT / "characters" / f"{n}.png")) for n in names]
         tries.append(("fal-ai/nano-banana/edit", {"prompt": p, "image_urls": refs, "num_images": 1, "aspect_ratio": "9:16", "output_format": "png"}))
-    tries.append(("fal-ai/nano-banana", {"prompt": p, "num_images": 1, "aspect_ratio": "9:16", "output_format": "png"}))
-    tries.append(("fal-ai/flux/dev", {"prompt": p, "image_size": "portrait_16_9", "num_images": 1}))
+    if names and use_refs:
+        tries.append(("fal-ai/nano-banana", {"prompt": p, "num_images": 1, "aspect_ratio": "9:16", "output_format": "png"}))
+    tries.append(("fal-ai/flux/schnell", {"prompt": p, "image_size": {"width": 768, "height": 1344}, "num_images": 1, "num_inference_steps": 4}))
     for model, inp in tries:
         try:
             r = fal.run(model, inp)
+        except fal.BudgetExceeded:
+            raise
         except Exception as e:
             r = {"error": str(e)}
         if r.get("images"):
@@ -58,23 +76,29 @@ def still(ep, beat, shot, dst):
 
 
 def upscale(src):
-    """2x anime upscale (Real-ESRGAN) so slow zooms on a 1080x1920 frame stay sharp."""
+    """Free local 2x upscale (Lanczos + light unsharp mask) so slow zooms on 1080x1920 stay crisp."""
+    from PIL import Image, ImageFilter
     dst = src.with_name(src.stem + "_up.png")
     if dst.exists() or not src.exists():
         return dst
-    r = fal.run("fal-ai/esrgan", {"image_url": fal.data_uri(src), "scale": 2, "model": "RealESRGAN_x4plus_anime_6B", "output_format": "png"})
-    return fal.download(r["image"]["url"], dst)
+    im = Image.open(src).convert("RGB"); im = im.resize((im.width * 2, im.height * 2), Image.LANCZOS)
+    im.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=2)).save(dst)
+    return dst
 
 
 def main(n):
     ep = {e["ep"]: e for e in json.loads((ROOT / "episodes_60s.json").read_text())}[n]
     d = ROOT / f"ep{n:02d}" / "images"; d.mkdir(parents=True, exist_ok=True)
-    jobs = [(ep, b, sh, shot_path(d, b, sh)) for b in ep["beats"] for sh in SHOTS]
+    jobs, used = [], 0
+    for b in ep["beats"]:
+        ref = bool(cast(b["visual"], n)) and used < MAX_REF_SHOTS
+        used += ref
+        jobs.append((ep, b, "a", shot_path(d, b, "a"), ref))
     with cf.ThreadPoolExecutor(5) as ex:
         for name, how in ex.map(lambda j: still(*j), jobs):
             print(name, how)
         list(ex.map(upscale, [j[3] for j in jobs]))
-    print(f"ep{n:02d}: {len(jobs)} stills, upscaled")
+    print(f"ep{n:02d}: {len(jobs)} stills, upscaled, estimated spend so far ${fal._spend():.2f}")
 
 
 if __name__ == "__main__":

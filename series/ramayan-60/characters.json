@@ -5,7 +5,15 @@
    "match": [
     "Rama"
    ],
-   "desc": "Prince Rama: young man about 25, blue-tinged dark skin, calm compassionate eyes, long black hair tied up, golden crown, yellow silk dhoti, gold armlets, great bow"
+   "desc": "Prince Rama: young man about 25, blue-tinged dark skin, calm compassionate eyes, long black hair tied up, golden crown, yellow silk dhoti, gold armlets, great bow",
+   "eps": [
+    1,
+    13
+   ],
+   "also_eps": [
+    60,
+    60
+   ]
   },
   "dasharatha": {
    "match": [
@@ -42,6 +50,101 @@
     "queens"
    ],
    "desc": "Queen Sumitra: serene queen about 38, brown skin, peaceful face, green silk sari with gold border, small golden crown"
+  },
+  "rama_forest": {
+   "match": [
+    "Rama"
+   ],
+   "eps": [
+    14,
+    59
+   ],
+   "desc": "Rama in forest exile: young man about 25, blue-tinged dark skin, calm compassionate eyes, long black hair tied up in a sage's matted top knot, no crown, simple ochre bark-cloth garment and cloth over one shoulder, wooden beads, great bow and quiver"
+  },
+  "sita": {
+   "match": [
+    "Sita"
+   ],
+   "desc": "Princess Sita: graceful young woman about 20, warm golden-brown skin, large gentle eyes, long black hair in a braid with a red bindi, simple elegant yellow-ochre sari with a red border covering her shoulders, a few gold ornaments"
+  },
+  "lakshmana": {
+   "match": [
+    "Lakshmana"
+   ],
+   "desc": "Lakshmana: young man about 23, fair skin, alert fierce eyes, black hair tied in a top knot, simple saffron garment and cloth over one shoulder, bow and quiver, protective stance"
+  },
+  "hanuman": {
+   "match": [
+    "Hanuman"
+   ],
+   "desc": "Hanuman: powerful divine vanara with a gentle monkey face, golden-orange fur, red-orange face, long tail, golden crown and earrings, red dhoti, carrying a golden mace, devoted kind eyes"
+  },
+  "ravana": {
+   "match": [
+    "Ravana"
+   ],
+   "desc": "Ravana: imposing demon king with ten crowned heads in a row, dark brown skin, thick black moustache, fierce eyes, heavy gold armor and jewels, deep crimson and black royal robes, twenty arms only when fighting"
+  },
+  "bharata": {
+   "match": [
+    "Bharata"
+   ],
+   "desc": "Bharata: young prince about 22, dark wheat skin, sorrowful earnest eyes, black hair, simple white garment with a thin gold border, no crown, tilak on forehead"
+  },
+  "sugriva": {
+   "match": [
+    "Sugriva"
+   ],
+   "desc": "Sugriva: vanara monkey king, brown-gold fur, anxious but noble monkey face, golden crown, green and gold dhoti, gold armlets, long tail"
+  },
+  "angada": {
+   "match": [
+    "Angada"
+   ],
+   "desc": "Angada: young vanara prince, reddish-brown fur, bold confident monkey face, small golden crown, blue and gold dhoti, armlets, long tail"
+  },
+  "vibhishana": {
+   "match": [
+    "Vibhishana"
+   ],
+   "desc": "Vibhishana: dignified rakshasa nobleman, dark skin, kind wise eyes, neat beard, single head, white and gold robes, simple crown, prayer beads"
+  },
+  "indrajit": {
+   "match": [
+    "Indrajit"
+   ],
+   "desc": "Indrajit: young demon prince warrior, dark skin, cruel handsome face, black armor with gold trim, tall dark crown, glowing bow, dark cape"
+  },
+  "maricha": {
+   "match": [
+    "Maricha"
+   ],
+   "desc": "Maricha: lean demon with grey skin, sunken frightened eyes, long tangled hair, tusks, ragged dark hermit clothes"
+  },
+  "janaka": {
+   "match": [
+    "Janaka"
+   ],
+   "desc": "King Janaka: serene sage-king about 55, wheat skin, grey beard, wise kind eyes, simple white and gold robes, small golden crown"
+  },
+  "vishwamitra": {
+   "match": [
+    "Vishwamitra"
+   ],
+   "desc": "Sage Vishwamitra: stern powerful old sage, lean muscular body, long grey beard and matted grey hair in a top knot, fierce eyes, saffron robe, deerskin over one shoulder, wooden staff"
+  },
+  "surpanakha": {
+   "match": [
+    "Surpanakha",
+    "demoness"
+   ],
+   "desc": "Surpanakha: tall rakshasi demoness, dark grey-green skin, wild copper hair, long claws, glowing angry eyes, tattered dark red garments, fully clothed"
+  },
+  "jambavan": {
+   "match": [
+    "Jambavan"
+   ],
+   "desc": "Jambavan: ancient wise bear king, huge dark brown bear standing upright, long white chin fur, gentle old eyes, golden crown and necklace, cloth sash"
   }
  }
 }

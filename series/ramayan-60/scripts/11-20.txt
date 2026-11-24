@@ -1,12 +1,10 @@
 ## 11 | The Coronation Plan | Tomorrow, a king would be crowned…
 src: Valmiki, Ayodhya Kanda 1-5
 [Ayodhya at peace, happy citizens] For twelve years, Ayodhya was happy under Dasharatha. Rama and Sita lived in joy, and the people adored their eldest prince.
-[the old king looking in a mirror at his white hair] But the king was growing old. He had seen bad omens in his dreams, and his stars were turning against him.
 [Dasharatha in council] He called his ministers and the kings of the land. 'I have served long enough,' he said. 'I wish to crown Rama as Yuvaraja, the heir to the throne.'
 [the court cheering] The whole court roared its approval. 'Rama is truthful, brave and kind,' they said. 'Crown him!'
 [Vasishtha announcing the auspicious day] Vasishtha fixed the ceremony for the very next morning, under the star Pushya. Bharata and Shatrughna were away at their uncle's kingdom.
 [city decorating, flowers and lamps] News spread, and the city burst into celebration. Streets were sprinkled with water, flags flew from every roof, and lamps were lit through the night.
-[Rama and Sita fasting in prayer] That night, Rama and Sita fasted and prayed to Lord Vishnu, sleeping on a bed of sacred grass.
 [Rama's calm, humble face] Only Rama stayed quiet and humble. He never wanted the throne. He wanted only to serve.
 
 ## 12 | Manthara's Poison | One whisper changed everything.
@@ -18,7 +16,6 @@ src: Valmiki, Ayodhya Kanda 7-9
 [Manthara throwing the jewel down] Manthara threw it away. 'Remember the two boons the king once gave you, when you saved his life in the war against the demons?'
 [Kaikeyi's smile fading] At first Kaikeyi loved Rama as her own son. But slowly, the poison of doubt took hold.
 [Kaikeyi removing her jewels, lying on the floor] She tore off her jewels, put on soiled clothes, and lay on the bare floor of the anger chamber.
-[an empty dark chamber, a single lamp] There she waited for the king. The happiest night of Ayodhya was about to become its darkest.
 
 ## 13 | Kaikeyi's Boons | Dharma or heartbreak?
 src: Valmiki, Ayodhya Kanda 10-14
@@ -28,7 +25,6 @@ src: Valmiki, Ayodhya Kanda 10-14
 [Dasharatha collapsing] The king fell to the ground as if struck by lightning. He begged, wept and pleaded. He even touched her feet.
 [Kaikeyi turning away] 'You are the king of the Ikshvaku line,' she said coldly. 'Will you break your word?' Kaikeyi did not move.
 [night passing, the king awake in grief] The whole night passed. The king lay awake, calling Rama's name, praying that the dawn would never come.
-[dawn breaking over the decorated city] Outside, the city woke up singing, ready for the coronation.
 [Dasharatha's face in tears] A king bound by his word. A father bound by love.
 
 ## 14 | Rama Accepts Exile | The kingdom lost. The dharma kept.

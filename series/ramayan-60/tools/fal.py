@@ -12,9 +12,33 @@ import os
 import pathlib
 import subprocess
 import sys
+import threading
 import time
 
 KEY = os.environ.get("FAL_KEY", "proxy-injected")
+LEDGER = pathlib.Path(__file__).resolve().parent.parent / "spend.json"
+BUDGET = float(os.environ.get("FAL_BUDGET", "16.0"))      # dollars; the user has $18 left in total
+PRICE = {                                                    # estimates from fal.ai's listed prices
+    "fal-ai/nano-banana": 0.039, "fal-ai/nano-banana/edit": 0.039,
+    "fal-ai/flux/schnell": 0.004, "fal-ai/flux/dev": 0.025, "fal-ai/esrgan": 0.003,
+}
+
+
+def estimate(model, inp):
+    if model.startswith("fal-ai/minimax/speech"):
+        return 0.10 * len(inp.get("text", "")) / 1000
+    return PRICE.get(model, 0.05)
+
+
+_LOCK = threading.Lock()
+
+
+def _spend(add=0.0):
+  with _LOCK:
+    led = json.loads(LEDGER.read_text()) if LEDGER.exists() else {"total": 0.0, "calls": 0}
+    if add:
+        led["total"] = round(led["total"] + add, 4); led["calls"] += 1; LEDGER.write_text(json.dumps(led, indent=1))
+    return led["total"]
 Q = "https://queue.fal.run"
 
 
@@ -35,10 +59,18 @@ def data_uri(path):
     return f"data:{mime};base64," + base64.b64encode(p.read_bytes()).decode()
 
 
+class BudgetExceeded(RuntimeError):
+    pass
+
+
 def submit(model, inp):
+    cost = estimate(model, inp)
+    if _spend() + cost > BUDGET:
+        raise BudgetExceeded(f"stopping: estimated spend ${_spend():.2f} + ${cost:.3f} would pass the ${BUDGET:.2f} budget")
     r = _curl(["-X", "POST", f"{Q}/{model}", "--data-binary", "@-"], json.dumps(inp))
     if "request_id" not in r:
         raise RuntimeError(f"{model}: {r}")
+    _spend(cost)
     return r
 
 
