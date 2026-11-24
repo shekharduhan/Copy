@@ -13,8 +13,8 @@ src: Valmiki, Yuddha Kanda 42-44
 src: Valmiki, Yuddha Kanda 44-50
 [Indrajit hiding in the clouds, invisible] Indrajit, master of illusion, fought from the clouds where no one could see him. He had once defeated Indra himself, and so got his name.
 [serpent arrows binding Rama and Lakshmana] He shot the Nagapasha, magical serpent arrows that tied up both brothers.
-[the brothers falling] The brothers fell, covered in blood. The monkey army thought they were gone.
-[Indrajit announcing victory in Lanka] Indrajit rode back to Lanka and announced that Rama and Lakshmana were dead. Ravana laughed and celebrated.
+[the brothers falling] The brothers fell to the ground. The monkey army thought they were gone.
+[Indrajit announcing victory in Lanka] Indrajit rode back to Lanka and announced that Rama and Lakshmana had fallen. Ravana laughed and celebrated.
 [Sita shown the fallen brothers from the flying chariot] Ravana even sent Sita in his flying chariot to see them lying on the field. She wept, until Trijata whispered: 'Their faces still shine. They are alive.'
 [the monkeys weeping around them] Sugriva and the monkeys wept around the brothers. Vibhishana tried to give them hope.
 [Garuda arriving, the serpents fleeing] Then Garuda, the eagle king and enemy of serpents, swept in on a great wind. The snakes fled.
@@ -24,7 +24,7 @@ src: Valmiki, Yuddha Kanda 44-50
 src: Valmiki, Yuddha Kanda 101 (popular tellings give the spear to Indrajit)
 [Indrajit leaping into the fray] The fighting grew fiercer each day. Indrajit struck again and again, appearing and vanishing in the sky.
 [Lakshmana fighting fiercely] Lakshmana fought him arrow for arrow, protecting his brother's army.
-[Indrajit hurling the Shakti spear] At last a deadly Shakti spear was thrown at Lakshmana, blazing like lightning. Valmiki says Ravana threw it; many tellings say Indrajit.
+[Indrajit hurling the Shakti spear] At last a mighty Shakti weapon was hurled at Lakshmana, blazing like lightning. Valmiki says Ravana threw it; many tellings say Indrajit.
 [Lakshmana collapsing] Lakshmana fell, unconscious and barely breathing.
 [Rama cradling his brother] Rama held him and wept. 'I can find another wife. I cannot find another brother.'
 [the monkey army falling silent] The whole army fell silent. Without Lakshmana, Rama said, he would not fight on.
@@ -47,10 +47,10 @@ src: Valmiki, Yuddha Kanda 60-67
 [Kumbhakarna asleep in a vast cave-palace] Ravana's brother Kumbhakarna slept for six months at a time, by a boon gone wrong. He had meant to ask Brahma for Indra's throne, but his tongue slipped, and he asked for sleep.
 [demons waking him with drums and elephants] The demons woke him with drums, conches and elephants marching over his body. They fed him mountains of food.
 [Kumbhakarna advising Ravana] He told Ravana the truth: 'Sita's capture was wrong. Return her.'
-[Kumbhakarna marching out anyway] But he still chose to fight for his brother. 'You are my king. I will die for you.'
+[Kumbhakarna marching out anyway] But he still chose to fight for his brother. 'You are my king. I will stand by you to the end.'
 [the giant crushing the monkey army] He was as tall as a mountain, and the monkeys scattered in fear. He even carried Sugriva away.
-[Rama facing Kumbhakarna] Then Rama faced him. His arrows cut off one arm, then the other, then his legs.
-[Rama's arrow striking him down] Rama's last arrow cut off his head. The giant fell into the sea, and the waves rose to the sky. He died with honor.
+[Rama facing Kumbhakarna] Then Rama faced him. Arrow after arrow, the giant slowed.
+[Rama's arrow striking him down] Rama's last arrow brought him down. The giant fell into the sea, and the waves rose to the sky. He fell with honor.
 
 ## 56 | Indrajit | Ravana's pride fell.
 src: Valmiki, Yuddha Kanda 84-91
@@ -60,7 +60,7 @@ src: Valmiki, Yuddha Kanda 84-91
 [Vibhishana pointing out the hidden place] Vibhishana knew the secret and led Lakshmana to the ritual grounds.
 [Lakshmana attacking before the ritual ended] Lakshmana broke the ritual and challenged Indrajit.
 [a fierce duel in the sky] They fought for three days and nights. Arrows covered the sky like a storm.
-[Lakshmana's final arrow] At last Lakshmana took an arrow and swore: 'If Rama is truly devoted to dharma, let this arrow kill Indrajit.'
+[Lakshmana's final arrow] At last Lakshmana took an arrow and swore: 'If Rama is truly devoted to dharma, let this arrow end this battle.'
 [Indrajit falling] After a terrible fight, Lakshmana's arrow found its mark. Ravana's greatest warrior was no more.
 
 ## 57 | Ravana Enters the Battle | Only one weapon remained.
@@ -82,7 +82,7 @@ src: Valmiki, Yuddha Kanda 108-111 (the nectar in the navel comes from later ret
 [Rama fitting the glowing arrow] Rama chanted a mantra and released it.
 [the arrow striking Ravana's chest] The arrow found its mark, and the mighty king of Lanka fell.
 [the gods showering flowers] The gods showered flowers. The sun shone clear. The wind blew softly again over Lanka.
-[Rama honoring the dying king] Even then, Rama asked Vibhishana to give his brother a proper funeral. 'Enmity ends with death,' he said. 'He is as much my brother now as yours.'
+[Rama honoring the dying king] Even then, Rama asked Vibhishana to give his brother a proper funeral. 'Enmity ends when life ends,' he said. 'He is as much my brother now as yours.'
 [Vibhishana crowned king of Lanka] Vibhishana was crowned king of Lanka, as Rama had promised.
 
 ## 59 | Agni Pariksha | Truth passed through fire.

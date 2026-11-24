@@ -11,9 +11,9 @@ src: Valmiki, Ayodhya Kanda 117-119
 ## 22 | Viradha | The first demon. Not the last.
 src: Valmiki, Aranya Kanda 1-4
 [the sages of Dandaka welcoming Rama] At the edge of the Dandaka forest, the sages welcomed Rama with fruit and flowers. 'Protect us,' they begged. 'Demons hunt us here.'
-[dark forest, a monstrous shadow] As they moved deeper into the forest, a terrible demon, Viradha, rose before them. He was as tall as a mountain, with a gaping mouth, wearing a tiger's skin dripping with blood.
+[dark forest, a monstrous shadow] As they moved deeper into the forest, a terrible demon, Viradha, rose before them. He was as tall as a mountain, with a gaping mouth, wearing a tiger's skin.
 [Viradha grabbing Sita] He snatched Sita and mocked the princes. 'You wear the clothes of hermits, but carry bows and a woman. I will make her my wife.'
-[Rama and Lakshmana shooting arrows] Rama and Lakshmana's arrows struck again and again, but the demon could not be killed by weapons. He had a boon from Brahma.
+[Rama and Lakshmana shooting arrows] Rama and Lakshmana's arrows flew again and again, but no weapon could stop him. He had a boon from Brahma.
 [the brothers breaking his arms] So the brothers broke his arms and wrestled him to the ground.
 [the princes burying him in a pit] At last, they buried him alive in a deep pit. Before dying, he revealed he was a cursed celestial named Tumburu, now free.
 
@@ -34,16 +34,16 @@ src: Valmiki, Aranya Kanda 17-18
 [Rama gently refusing] Rama smiled and said, 'I am married. Ask my brother. He is alone here.'
 [Lakshmana laughing] Lakshmana laughed and refused too. 'I am only a servant. Go back to Rama. He will make you his second wife.'
 [Surpanakha realizing she is mocked] She realized they were mocking her. Her beautiful form fell away, and her true face burned with rage.
-[Surpanakha attacking Sita in rage] Furious, she lunged at Sita, her claws reaching for her throat.
-[Lakshmana drawing his sword] Lakshmana struck first and cut off her nose and ears.
-[Surpanakha running away screaming] Bleeding and burning with hatred, she fled through the forest, howling, to her brothers.
+[Surpanakha attacking Sita in rage] Furious, she rushed at Sita in a rage.
+[Lakshmana drawing his sword] Lakshmana stopped her with his sword and punished her, cutting her nose.
+[Surpanakha running away screaming] Burning with hatred, she fled through the forest, howling, to her brothers.
 
 ## 25 | Khara and Dushana | One man. Fourteen thousand.
 src: Valmiki, Aranya Kanda 19-30
-[Surpanakha crying before Khara] Surpanakha fell bleeding at the feet of her brother Khara, ruler of the demons in Janasthana, and begged for revenge.
-[fourteen demons marching] Khara sent fourteen fierce warriors to kill Rama. Rama killed all of them with fourteen arrows.
+[Surpanakha crying before Khara] Surpanakha fell weeping at the feet of her brother Khara, ruler of the demons in Janasthana, and begged for revenge.
+[fourteen demons marching] Khara sent fourteen fierce warriors after Rama. Rama defeated all of them with fourteen arrows.
 [a vast demon army, thousands strong] Then Khara and his general Dushana brought fourteen thousand demons to the forest, with chariots, elephants and weapons of every kind.
-[evil omens: blood rain, jackals howling] Evil omens filled the sky. Blood fell like rain, and jackals howled at noon. But Khara would not turn back.
+[evil omens: blood rain, jackals howling] Evil omens filled the sky. Red rain fell, and jackals howled at noon. But Khara would not turn back.
 [Rama sending Sita and Lakshmana to a cave] Rama sent Sita and Lakshmana to a cave in the mountain. 'This fight is mine,' he said.
 [Rama alone, bow drawn] He faced the whole army alone, wearing armor that shone like the sun. His arrows filled the sky.
 [Rama killing Dushana and Trishira] Dushana fell. Then the three-headed Trishira. Then, at last, Khara himself.
@@ -52,13 +52,13 @@ src: Valmiki, Aranya Kanda 19-30
 ## 26 | Ravana and Maricha | A plan was set.
 src: Valmiki, Aranya Kanda 31-42
 [Lanka's golden palace at night] In golden Lanka, the ten-headed king Ravana sat on his throne, among his ministers.
-[Surpanakha before Ravana in his court] Surpanakha burst into the court and showed her wounds to Ravana. 'You sit here drinking while a man destroys your army!'
-[Ravana's ten heads, angry] She described Sita's beauty and goaded him. 'Take her, and destroy Rama. She should be your queen.'
+[Surpanakha before Ravana in his court] Surpanakha burst into the court and showed Ravana what had been done to her. 'You sit here drinking while a man defeats your army!'
+[Ravana's ten heads, angry] She described Sita's beauty and goaded him. 'She should be your queen, brother. Bring her to Lanka.'
 [Ravana's flying chariot crossing the sea] Ravana flew across the ocean in his golden flying chariot, pulled by donkeys with demon faces.
 [Ravana visiting Maricha's hut] He went to Maricha, the demon Rama had once thrown across the ocean, now living as a hermit.
 [Maricha shaking in fear] 'Do not touch Rama,' Maricha begged. 'I have felt his arrow. Every tree in this forest looks like Rama to me.'
-[Ravana threatening Maricha with his sword] But Ravana drew his sword. 'Help me, or die by my hand right now.'
-[Maricha agreeing in despair] Maricha agreed. 'If I go, Rama will kill me. If I stay, you will. Better to die by Rama's hand.'
+[Ravana threatening Maricha with his sword] But Ravana grew furious and threatened him. 'Help me, or face my anger.'
+[Maricha agreeing in despair] Maricha agreed in despair. 'Either way, my end is near. Better that it comes from Rama.'
 [the two flying toward Panchavati] Together they flew toward Panchavati.
 
 ## 27 | The Golden Deer | Maricha's trap.
@@ -67,7 +67,7 @@ src: Valmiki, Aranya Kanda 42-44
 [the deer grazing among flowers] It played near the hut, coming close, then running away, as if it wanted to be seen.
 [Sita pointing, eyes bright] Sita was enchanted. 'Rama, please catch it for me! If it lives, we will take it home to Ayodhya. If not, its golden skin will be a seat.'
 [Lakshmana frowning] Lakshmana was uneasy. 'Brother, no deer like this exists. It could be a demon's trick. It could be Maricha.'
-[Rama taking his bow] But Rama could not refuse Sita. 'If it is Maricha, I will kill him,' he said.
+[Rama taking his bow] But Rama could not refuse Sita. 'If it is Maricha, I will deal with him,' he said.
 [Rama giving Lakshmana instructions] 'Guard her well,' he told Lakshmana. 'Do not leave her alone for a moment.'
 [Rama following the deer into the forest] And he followed the deer into the forest.
 [the deer leading him far away] The deer led him deeper and deeper, appearing and vanishing among the trees, far away from the hut.
@@ -99,9 +99,9 @@ src: Valmiki, Aranya Kanda 50-51, 67-68
 [the great vulture on a tree] Jatayu, an old vulture and friend of Dasharatha, heard Sita's cries.
 [Jatayu warning Ravana] 'I am sixty thousand years old,' he called, 'but I will not let you take her. Put her down, Ravana!'
 [Jatayu diving at Ravana's chariot] Though weak with age, he attacked Ravana with all his strength.
-[Jatayu tearing the chariot apart] He broke the chariot, killed the donkeys and the charioteer, and wounded the demon king with his claws.
-[Ravana cutting off his wings] But Ravana drew his sword and cut off the old bird's wings. Jatayu fell.
+[Jatayu tearing the chariot apart] He smashed the chariot and fought the demon king with beak and talons.
+[Ravana cutting off his wings] But Ravana drew his sword and struck down the brave old bird. Jatayu fell.
 [Sita's jewels falling from the sky] As Ravana flew on, Sita dropped her jewels, wrapped in her scarf, onto a mountain where five monkeys sat.
 [Rama finding the dying Jatayu] Later, Rama and Lakshmana found the dying bird. He lived long enough to tell Rama everything.
-[Rama holding the dying Jatayu] 'Ravana took her south,' he whispered, and died in Rama's arms.
+[Rama holding the dying Jatayu] 'Ravana took her south,' he whispered, and breathed his last in Rama's arms.
 [Rama lighting Jatayu's funeral fire] Rama performed his funeral like a son, and wept for him as he had for his father.
