@@ -1395,7 +1395,7 @@
    },
    {
     "visual": "Rama's arrow flying from behind a tree",
-    "text": "This time Rama's arrow flew true, from behind a tree, and struck Vali in the chest."
+    "text": "This time Rama's arrow flew true from behind a tree, and Vali fell."
    },
    {
     "visual": "Vali dying, speaking to Rama",
@@ -1406,8 +1406,8 @@
     "text": "Vali accepted, and asked Rama to protect his son, Angada. Sugriva was crowned king of Kishkindha."
    }
   ],
-  "words": 146,
-  "est_seconds": 66.3
+  "words": 143,
+  "est_seconds": 65.1
  },
  {
   "ep": 36,
