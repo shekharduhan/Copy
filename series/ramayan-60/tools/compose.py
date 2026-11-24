@@ -87,22 +87,27 @@ MOVES = ["in", "out", "up", "down", "in", "left", "out", "right"]
 
 
 def shot_list(ep, beats, total, img_dir):
+    """Two shots per beat: the beat's image wide, then a close crop of it. A beat with no image of its own
+    (over the per-episode paid-image cap) reuses the nearest image in the episode, cropped differently."""
     sys.path.insert(0, str(ROOT / "tools")); from images import shot_path
+    own = [shot_path(img_dir, beat, "a") for beat in ep["beats"]]
+    have = [i for i, f in enumerate(own) if f.exists()]
     shots = []
     for i, (b, beat) in enumerate(zip(beats, ep["beats"])):
         t0 = 0.0 if i == 0 else b["start"] - 0.2
         t1 = total if i == len(beats) - 1 else beats[i + 1]["start"] - 0.2
         mid = t0 + (t1 - t0) * 0.5
-        for sh, (a, z) in (("a", (t0, mid)), ("b", (mid, t1))):
-            f = shot_path(img_dir, beat, sh); close = False
-            if not f.exists():                       # no paid close-up: crop one from the wide image
-                f = shot_path(img_dir, beat, "a"); close = True
-            up = f.with_name(f.stem + "_up.png")
-            shots.append(((up if up.exists() else f), a, z, close))
+        if own[i].exists():
+            f, crops = own[i], ("wide", "close")
+        else:
+            j = min(have, key=lambda k: (abs(k - i), k > i))          # nearest, preferring an earlier image
+            f, crops = own[j], ("left", "right") if i % 2 else ("right", "left")
+        up = f.with_name(f.stem + "_up.png"); f = up if up.exists() else f
+        shots.append((f, t0, mid, crops[0])); shots.append((f, mid, t1, crops[1]))
     return shots
 
 
-def frame_at(img, move, u, close=False):
+def frame_at(img, move, u, crop="wide"):
     """Crop window for progress u in [0,1]: ease in/out, zoom 1.0-1.10, or a 7% drift at zoom 1.08."""
     import numpy as np
     from PIL import Image
@@ -114,10 +119,12 @@ def frame_at(img, move, u, close=False):
         z = 1.08; k = (e - 0.5) * 0.07
         dx = k * iw if move in ("left", "right") else 0.0; dy = k * ih if move in ("up", "down") else 0.0
         if move in ("left", "up"): dx, dy = -dx, -dy
+    close = crop != "wide"
     if close:
-        z *= 1.45                                    # a close-up cropped from the wide image, aimed a little above centre
+        z *= 1.45                                    # a close-up cropped from the image, aimed a little above centre
     s = base * z; cw, ch = W / s, H / s
-    cx, cy = iw / 2 + dx * 0.5, ih / 2 + dy * 0.5 - (ih * 0.08 if close else 0)
+    side = {"left": -0.18, "right": 0.18}.get(crop, 0.0)  # reused images: crop to one side, then the other
+    cx, cy = iw / 2 + dx * 0.5 + side * iw, ih / 2 + dy * 0.5 - (ih * 0.08 if close else 0)
     cx = min(max(cx, cw / 2), iw - cw / 2); cy = min(max(cy, ch / 2), ih - ch / 2)
     x0, y0 = cx - cw / 2, cy - ch / 2
     return img.transform((W, H), Image.AFFINE, (cw / W, 0, x0, 0, ch / H, y0), resample=Image.BICUBIC)
@@ -136,8 +143,8 @@ def render_stills(ep, beats, total, img_dir, out):
         t = k / FPS
         i = max(j for j, (_, a, _, _) in enumerate(shots) if a <= t + 1e-6)
         def render(j):
-            _, a, z, close = shots[j]; a2 = a - (XFADE if j else 0); u = min(max((t - a2) / (z - a2 + XFADE), 0), 1)
-            return np.asarray(frame_at(imgs[j], MOVES[j % len(MOVES)], u, close), dtype=np.float32)
+            _, a, z, crop = shots[j]; a2 = a - (XFADE if j else 0); u = min(max((t - a2) / (z - a2 + XFADE), 0), 1)
+            return np.asarray(frame_at(imgs[j], MOVES[j % len(MOVES)], u, crop), dtype=np.float32)
         fr = render(i)
         if i + 1 < len(shots) and t > shots[i + 1][1] - XFADE:            # crossfade into the next shot
             w = (t - (shots[i + 1][1] - XFADE)) / XFADE; w = w * w * (3 - 2 * w)

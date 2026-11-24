@@ -1,4 +1,9 @@
-"""Two 9:16 anime stills per beat (a wide shot and a closer shot), drawn with the reference portraits of the characters named in the beat's visual.
+"""9:16 anime stills for an episode, on a small budget.
+
+Scenes with people: at most MAX_REF_SHOTS paid images (nano-banana), drawn with the reference portraits of the
+characters named in the visual; the episode's first people image is also passed as a reference to the later
+ones, so one-off characters (Shabari, Guha...) stay the same within the episode. People scenes past the cap get
+no image: compose.py reuses the nearest one, cropped differently. Pure scenery uses Flux Schnell (cheap).
 
   python3 images.py 1      -> ep01/images/beat_XX.png
 """
@@ -31,6 +36,17 @@ SHOTS = {"a": "Cinematic medium-wide shot with the main figures clearly visible.
 MAX_REF_SHOTS = 3      # consistent-character (paid) images per episode; the rest use Flux Schnell
 
 
+PEOPLE = re.compile(r"\b(sage|sages|king|kings|queen|queens|woman|women|man|men|demon|demons|demoness|demonesses|monkey|monkeys|"
+                    r"bear|army|armies|warrior|warriors|brother|brothers|prince|princes|princess|hermit|devotee|vulture|bird|"
+                    r"serpent|figure|figures|crowd|maid|boatman|giant|guard|guards|priest|people|citizens|villager|messenger|"
+                    r"messengers|couple|couples|bride|brides|son|sons|daughter|daughters|wife|husband|mother|father|being|"
+                    r"he|she|him|her|his|they|them|baby|boy|boys|girl|child|children)\b", re.I)
+
+
+def has_people(visual):
+    return bool(PEOPLE.search(visual) or re.search(r"\b[A-Z][a-z]+", visual))   # any capitalised name
+
+
 def shot_path(d, beat, shot):
     """Images are named by their scene description, so editing a script never mismatches images and beats."""
     return d / f"{hashlib.sha1(beat['visual'].encode()).hexdigest()[:10]}_{shot}.png"
@@ -48,20 +64,24 @@ def prompt_for(ep, beat, names, shot="a"):
     return p + "Ancient India, epic and emotional, characters fully clothed. No signboards, banners or writing; absolutely no text, captions, letters or subtitles anywhere in the image."
 
 
-def still(ep, beat, shot, dst, use_refs=True):
+def still(ep, beat, shot, dst, paid=True, anchor=None):
+    """paid: a people scene inside the cap (nano-banana). Otherwise scenery (Flux Schnell)."""
     if dst.exists():
         return dst.name, "exists"
-    names = cast(beat["visual"], ep["ep"])
+    names = cast(beat["visual"], ep["ep"]) if paid else []
     p = prompt_for(ep, beat, names, shot)
+    refs = [REF_CACHE.setdefault(n, fal.data_uri(ROOT / "characters" / f"{n}.png")) for n in names]
+    if anchor is not None and anchor.exists() and not CHILD.search(beat["visual"]):
+        refs.append(fal.data_uri(anchor))
+        p += "Keep any people who also appear in the last reference image looking exactly the same. "
     tries = []
-    if names and not use_refs:          # over the per-episode cap: describe the characters in words only
-        tries.append(("fal-ai/flux/schnell", {"prompt": p, "image_size": {"width": 768, "height": 1344}, "num_images": 1, "num_inference_steps": 4}))
-    elif names:
-        refs = [REF_CACHE.setdefault(n, fal.data_uri(ROOT / "characters" / f"{n}.png")) for n in names]
-        tries.append(("fal-ai/nano-banana/edit", {"prompt": p, "image_urls": refs, "num_images": 1, "aspect_ratio": "9:16", "output_format": "png"}))
-    if names and use_refs:
+    if paid and refs:
+        tries.append(("fal-ai/nano-banana/edit", {"prompt": p, "image_urls": refs[:4], "num_images": 1, "aspect_ratio": "9:16", "output_format": "png"}))
+    if paid:
         tries.append(("fal-ai/nano-banana", {"prompt": p, "num_images": 1, "aspect_ratio": "9:16", "output_format": "png"}))
-    tries.append(("fal-ai/flux/schnell", {"prompt": p, "image_size": {"width": 768, "height": 1344}, "num_images": 1, "num_inference_steps": 4}))
+    else:
+        tries.append(("fal-ai/flux/schnell", {"prompt": p, "image_size": {"width": 768, "height": 1344}, "num_images": 1, "num_inference_steps": 4}))
+    r = {}
     for model, inp in tries:
         try:
             r = fal.run(model, inp)
@@ -71,7 +91,7 @@ def still(ep, beat, shot, dst, use_refs=True):
             r = {"error": str(e)}
         if r.get("images"):
             fal.download(r["images"][0]["url"], dst)
-            return dst.name, f"{model} {names}"
+            return dst.name, f"{model} {names}{' +anchor' if anchor else ''}"
     return dst.name, f"FAILED {str(r)[:160]}"
 
 
@@ -89,16 +109,27 @@ def upscale(src):
 def main(n):
     ep = {e["ep"]: e for e in json.loads((ROOT / "episodes_60s.json").read_text())}[n]
     d = ROOT / f"ep{n:02d}" / "images"; d.mkdir(parents=True, exist_ok=True)
-    jobs, used = [], 0
-    for b in ep["beats"]:
-        ref = bool(cast(b["visual"], n)) and used < MAX_REF_SHOTS
-        used += ref
-        jobs.append((ep, b, "a", shot_path(d, b, "a"), ref))
+    people = [b for b in ep["beats"] if has_people(b["visual"])]
+    # spread the paid images across the episode's people scenes (first, middle, last ...)
+    done = [b for b in people if shot_path(d, b, "a").exists()]          # already paid for: they count toward the cap
+    rest = [b for b in people if b not in done]
+    k = max(0, min(MAX_REF_SHOTS - len(done), len(rest)))
+    pick = sorted({round(i * (len(rest) - 1) / max(1, k - 1)) for i in range(k)}) if k else []
+    paid = done[:1] + [rest[i] for i in pick] + done[1:]
+    scenery = [b for b in ep["beats"] if not has_people(b["visual"])]
+    anchor = None
+    if paid:                                   # the first people image is generated alone, then anchors the rest
+        first = paid[0]; anchor = shot_path(d, first, "a")
+        print(*still(ep, first, "a", anchor, True))
+    jobs = [(ep, b, "a", shot_path(d, b, "a"), True, anchor) for b in paid[1:]] + \
+           [(ep, b, "a", shot_path(d, b, "a"), False, None) for b in scenery]
     with cf.ThreadPoolExecutor(5) as ex:
         for name, how in ex.map(lambda j: still(*j), jobs):
             print(name, how)
-        list(ex.map(upscale, [j[3] for j in jobs]))
-    print(f"ep{n:02d}: {len(jobs)} stills, upscaled, estimated spend so far ${fal._spend():.2f}")
+        made = [shot_path(d, b, "a") for b in ep["beats"]]
+        list(ex.map(upscale, made))
+    skipped = len(people) - len(paid)
+    print(f"ep{n:02d}: {len(paid)} paid + {len(scenery)} scenery stills, {skipped} scenes reuse an image; estimated spend so far ${fal._spend():.2f}")
 
 
 if __name__ == "__main__":
