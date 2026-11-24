@@ -33,7 +33,7 @@ def cast(visual, n=1):
 
 
 SHOTS = {"a": "Cinematic medium-wide shot with the main figures clearly visible."}   # the close-up is cropped from this image
-MAX_REF_SHOTS = 4      # consistent-character (paid) images per episode; the rest use Flux Schnell
+MAX_REF_SHOTS = 3      # consistent-character (paid) images per episode; the rest use Flux Schnell
 
 
 PEOPLE = re.compile(r"\b(sage|sages|king|kings|queen|queens|woman|women|man|men|demon|demons|demoness|demonesses|monkey|monkeys|"
