@@ -55,7 +55,8 @@ def plan():
     words = sum(len(b["text"].split()) for b in beats)
     chars = sum(len(b["text"]) for b in beats)
     kinds = {k: sum(b["kind"] == k for b in beats) for k in ("image", "tree", "reuse")}
-    voice_cost = VOICE_PER_1K * chars / 1000
+    voiced = (ROOT / "audio" / "narration.wav").exists()
+    voice_cost = 0.0 if voiced else VOICE_PER_1K * chars / 1000      # already paid once the narration exists
     left = fal.BUDGET - fal._spend()
     n_img = int(max(0, left - voice_cost - 0.05) // IMG_PRICE)
     print(f"{len(s['chapters'])} chapters, {len(beats)} beats, {words} words (~{words / 2.5 / 60:.1f} min speech)")
@@ -144,7 +145,7 @@ def image_one(b):
 
 def images():
     s, beats = load(); (ROOT / "images").mkdir(exist_ok=True)
-    want = [b for b in beats if b["kind"] == "image"]
+    want = [b for b in beats if b["kind"] == "image" and not img_path(b).exists()]
     n = plan()
     # if the budget cannot cover every image beat, keep an even spread (chapter openers first)
     if n < len(want):

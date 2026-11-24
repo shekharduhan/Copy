@@ -1,0 +1,587 @@
+[
+ {
+  "lineage": [
+   "Brahma (sprung from the Unmanifest; 'self-create' in Ayodhya 110)",
+   "Marichi",
+   "Kashyapa",
+   "Vivasvan",
+   "Vaivasvata Manu (also called Prajapati)",
+   "Ikshvaku (first king of Ayodhya)",
+   "Kukshi",
+   "Vikukshi",
+   "Bana (Vana)",
+   "Anaranya",
+   "Prithu",
+   "Trishanku",
+   "Dhundhumara",
+   "Yuvanashva",
+   "Mandhata",
+   "Susandhi",
+   "Dhruvasandhi (brother: Prasenajit, not in the main line)",
+   "Bharata",
+   "Asita",
+   "Sagara",
+   "Asamanja",
+   "Anshuman",
+   "Dilipa",
+   "Bhagiratha",
+   "Kakutstha",
+   "Raghu",
+   "Pravriddha / Kalmashapada (Saudasa in Ayodhya 110)",
+   "Shankhana",
+   "Sudarshana",
+   "Agnivarna",
+   "Shighraga",
+   "Maru",
+   "Prashushruka",
+   "Ambarisha",
+   "Nahusha",
+   "Yayati (only in Bala 70; left out of Ayodhya 110)",
+   "Nabhaga",
+   "Aja (brother: Suvrata, named only in Ayodhya 110)",
+   "Dasharatha",
+   "Rama (with Lakshmana in Bala 70)"
+  ],
+  "differences": [
+   "I checked the order in the brief against both passages in /home/user/Copy/series/ikshvaku/research/dutt_valmiki.txt (lines 372-376 for Bala 70 and lines 1177-1182 for Ayodhya 110). The order is right in both, from Brahma to Dasharatha. No names need to be moved.",
+   "Yayati: Bala 70 has Nahusha -> Yayati -> Nabhaga ('Nahusha's son was Yayati, and Yayati's was Nabhaga'). Ayodhya 110 leaves Yayati out and has Nahusha -> Nabhaga ('Nahusha's son was the exceedingly virtuous Nabhaga'). This is the only generation that differs between the two lists. (Source: the file, high confidence.)",
+   "Aja's brother: Ayodhya 110 says 'Nabhaga had two sons, Aja and Suvrata'. Bala 70 gives Aja alone. (Source: the file, high confidence.)",
+   "Kalmashapada's other name: Bala 70 calls Raghu's son 'Pravriddha, feeding on human flesh', who 'came to be known by the name of Kalmashapada'. Ayodhya 110 adds a second name: 'Kalmashapada, Saudasa'. (Source: the file, high confidence.)",
+   "Asita's fate: in Bala 70 Asita flees to the Himalaya with his two wives and 'paid his debt to Nature', meaning he dies. In Ayodhya 110 he 'became engaged in asceticism' on the Himalaya. Both passages then tell the story of the co-wife's poison, Kalindi's blessing from Chyavana, and the birth of Sagara 'with poison' (sa + gara). (Source: the file, high confidence.)",
+   "Who is addressed: Bala 70 is spoken to Janaka about 'Rama and Lakshmana'. Ayodhya 110 is spoken to Rama himself ('His eldest son art thou'). (Source: the file, high confidence.)",
+   "Ayodhya 110 adds small details about some kings: under Anaranya there was no drought, famine or theft; Trishanku 'by virtue of his truth telling went to heaven in person'; the Kakutsthas and Raghavas take their names from Kakutstha and Raghu; Sagara dug out the ocean; Asamanja was banished; Shankhana 'found destruction along with his forces'. Bala 70 is a plainer list. (Source: the file, high confidence.)",
+   "Spelling in the OCR: Prashushruka appears as 'Prasucruka' in Bala 70 and 'Prasusruva' in Ayodhya 110. The Haihaya allies are 'Sasavindas' in Bala 70 and 'Sasavindus' in Ayodhya 110. (Source: the file, high confidence.)",
+   "Raghuvamsha differs: Kalidasa's Raghuvamsha (cantos 1-8) runs Dilipa -> Raghu -> Aja -> Dasharatha -> Rama, four generations in a row. In Valmiki, Dilipa is Bhagiratha's father and comes about 18 generations before Dasharatha, and Raghu is Kakutstha's son, not Dilipa's. Valmiki's Aja is Nabhaga's son. (Source: my own knowledge of Raghuvamsha, high confidence.)",
+   "Harishchandra: in the Vishnu Purana (4.3) and Bhagavata Purana (9.7), Trishanku's son is Harishchandra, followed by Rohita and others. Valmiki's list has no Harishchandra and goes straight from Trishanku to Dhundhumara. (Source: my own knowledge, high confidence.)",
+   "Kakutstha's position in the Puranas: Kakutstha (also called Puranjaya) is Vikukshi's son, about the 4th king after Manu. He got the name by riding on the hump (kakud) of Indra, who had taken the form of a bull. In Valmiki he is Bhagiratha's son and comes very late in the line. (Source: my own knowledge of Vishnu Purana 4.2 and Bhagavata 9.6, high confidence.)",
+   "Ordering in the Puranas: Dhundhumara (Kuvalashva) comes long before Trishanku, and Mandhata is the son of Yuvanashva II, also well before Trishanku. Bana and Anaranya come after Mandhata's line, and Anaranya is killed by Ravana. Valmiki packs these kings into one short sequence: Bana, Anaranya, Prithu, Trishanku, Dhundhumara, Yuvanashva, Mandhata. (Source: my own knowledge, medium-high confidence on the exact Puranic positions.)",
+   "Nahusha, Yayati and Ambarisha: in the Puranas, Nahusha and Yayati belong to the Lunar dynasty (Aila or Chandravamsha), not the Ikshvaku line. Ambarisha is usually Nabhaga's son, and Nabhaga is Shrutasena's or Manu's descendant, not Yayati's son. Scholars often point to their appearance in Valmiki's solar list as a mix-up of names. (Source: my own knowledge, medium-high confidence.)",
+   "The Puranas add many kings Valmiki leaves out. Examples are Ayodhya kings such as Rituparna, Sudasa and Mitrasaha (Kalmashapada is Sudasa's son, hence the name Saudasa), Ashmaka and Mulaka, Khatvanga (who is Dilipa I in some lists), and Dirghabahu. The Puranic lines from Manu to Rama run to about 60-65 kings, compared with about 35 in Valmiki. Most Puranas also give Raghu -> Aja -> Dasharatha, the same as Raghuvamsha. (Source: my own knowledge, medium confidence on the counts.)",
+   "Ambarisha in Bala 61-62: a 'lord of Ayodhya' called Ambarisha holds the sacrifice in the Shunahshepa story. Bala 61 does not say where this Ambarisha falls in the genealogy. The Puranas place the Shunahshepa story under Harishchandra instead, as does the Aitareya Brahmana. (Source: the file for Valmiki, high confidence; my own knowledge for the Brahmana and Puranas, high confidence.)",
+   "Other later traditions: in the Buddhist Pali texts (Ambattha Sutta, Mahavamsa), the Sakyas, the Buddha's clan, descend from King Okkaka, the Pali form of Ikshvaku. The Dasaratha Jataka (No. 461) makes Rama and Sita brother and sister and sets the story in Benares. In Jain tradition, the Ikshvaku line begins with Rishabhanatha, the first Tirthankara, and several Tirthankaras are Ikshvakus. (Source: my own knowledge, high confidence.)"
+  ],
+  "facts": [
+   {
+    "claim": "The genealogy is recited by Vasishtha, the family priest of Ayodhya. Dasharatha asks him to do it, saying that Vasishtha 'is the spiritual guide of our race; and in every ceremony that we undertake, he it is who serves the function of a spokesman.'",
+    "source": "Valmiki Bala Kanda 70 (Dutt tr., file line 372)",
+    "confidence": "high"
+   },
+   {
+    "claim": "The occasion in Bala 70 is the wedding talks at Mithila. On the morning after the bow is broken, Janaka sends for his brother Kushadhvaja from Sankashya. Dasharatha then arrives with his priests, and Vasishtha gives the lineage before formally asking Janaka for his daughters.",
+    "source": "Valmiki Bala Kanda 70 (file lines 370-372)",
+    "confidence": "high"
+   },
+   {
+    "claim": "Why a genealogy at a wedding: Vasishtha ends by asking for the brides for Rama and Lakshmana, who belong to kings 'possessing purity of race even from the time of their founder', and asks Janaka to 'confer like brides upon like bridegrooms.' Janaka replies that 'in the matter of disposal of daughters ... one's own line should be described by one boasting of a noble ancestry'. He then recites his own Videha line, from Nimi through Mithi and Janaka down to Hrasvaroma, the father of Janaka and Kushadhvaja. Both families prove they are equals before the marriage.",
+    "source": "Valmiki Bala Kanda 70-71 (file lines 377-379)",
+    "confidence": "high"
+   },
+   {
+    "claim": "In the same recitation Ikshvaku is called 'the first king of Ayodhya', and Manu is 'otherwise called Prajapati.'",
+    "source": "Valmiki Bala Kanda 70 (file line 373); repeated in Ayodhya 110 (lines 1177-1178)",
+    "confidence": "high"
+   },
+   {
+    "claim": "The second recitation takes place at Chitrakuta. Bharata has come to bring Rama back, Javali's materialist argument has angered Rama, and Vasishtha steps in. He first gives a cosmogony: water everywhere, then Brahma, who takes the form of a boar and raises the earth. Then he recites the royal line.",
+    "source": "Valmiki Ayodhya Kanda 110 (file line 1177)",
+    "confidence": "high"
+   },
+   {
+    "claim": "In Ayodhya 110 the genealogy serves as a legal argument. Vasishtha concludes: 'Among the Ikshwakus, the first born becomes the sovereign. The first born existing, an inferior son cannot be installed in the kingdom', and urges Rama, as the eldest, to take back his kingdom.",
+    "source": "Valmiki Ayodhya Kanda 110 (file line 1183)",
+    "confidence": "high"
+   },
+   {
+    "claim": "Valmiki says Manu gave the world first to Ikshvaku: 'this world was first conferred upon Ikshwaku by Manu.'",
+    "source": "Valmiki Ayodhya Kanda 110 (file line 1178)",
+    "confidence": "high"
+   },
+   {
+    "claim": "In both recitations Sagara gets his name from the poison (gara) that a jealous co-wife gave his pregnant mother Kalindi. The sage Chyavana, son of Bhrigu, had promised her a mighty son, and Sagara was 'born together with the poison.'",
+    "source": "Valmiki Bala Kanda 70 (line 375); Ayodhya Kanda 110 (lines 1180-1181)",
+    "confidence": "high"
+   },
+   {
+    "claim": "Asita, Sagara's father, was driven out by the Haihayas, Talajanghas and Shashabindus.",
+    "source": "Valmiki Bala Kanda 70 (line 374); Ayodhya Kanda 110 (line 1179)",
+    "confidence": "high"
+   },
+   {
+    "claim": "In Ayodhya 110 the dynasty's later names come from two kings: 'From Bhagiratha sprang Kakutstha, from whom the Kakutsthas came to be well known. Kakutstha had Raghu for his son, after whom have been named the Raghavas.'",
+    "source": "Valmiki Ayodhya Kanda 110 (file line 1181)",
+    "confidence": "high"
+   },
+   {
+    "claim": "Raghu's son Pravriddha is said to have eaten human flesh and became known as Kalmashapada. Ayodhya 110 also calls him Saudasa.",
+    "source": "Valmiki Bala Kanda 70 (line 376); Ayodhya Kanda 110 (line 1182)",
+    "confidence": "high"
+   },
+   {
+    "claim": "Vasishtha's two lists count about 34-35 generations from Ikshvaku to Rama. The Puranic king-lists count about 60 or more.",
+    "source": "Count from the file; the Puranic figure is from my own knowledge",
+    "confidence": "medium",
+    "note": "The exact Puranic count varies by text: Vishnu Purana and Bhagavata differ, and Pargiter's reconstruction gives about 63."
+   },
+   {
+    "claim": "Dutt's OCR section numbering is off by one in places. Janaka's reply is headed 'SECTION LXXI' but the file still tags it [01-bala 70]. The genealogy content matches the standard Bala 1.70 and Ayodhya 2.110 of the Gita Press and vulgate numbering.",
+    "source": "The file, lines 377-382",
+    "confidence": "medium",
+    "note": "In the Baroda critical edition the Ayodhya recitation is numbered differently (about 2.102). Cite the vulgate number unless you have checked the critical edition."
+   }
+  ]
+ },
+ {
+  "facts": [
+   {
+    "claim": "[VALMIKI] Vasishtha recites Rama's lineage at the wedding in Mithila: Brahma, then Marichi, then Kashyapa, then Vivasvat (the Sun), then Manu, then Ikshvaku. He calls Ikshvaku 'the first king of Ayodhya'.",
+    "source": "Valmiki Ramayana, Bala Kanda 70 (Dutt tr., dutt_valmiki.txt line ~373)",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] The full line as Valmiki gives it: Ikshvaku, Kukshi, Vikukshi, Bana, Anaranya, Prithu, Trishanku, Dhundhumara, Yuvanashva, Mandhata, Susandhi, Dhruvasandhi, Bharata, Asita, Sagara, Asamanja, Anshuman, Dilipa, Bhagiratha, Kakutstha, Raghu, Pravriddha (Kalmashapada), Shankhana, Sudarshana, Agnivarna, Shighraga, Maru, Prashushruka, Ambarisha, Nahusha, Yayati, Nabhaga, Aja, Dasharatha, then Rama and Lakshmana.",
+    "source": "Valmiki Bala 70; repeated with small differences in Ayodhya 110",
+    "confidence": "high",
+    "note": "Ayodhya 110 leaves out Yayati (Nahusha's son is Nabhaga). This list is very different from the Puranic lists, so the narration should say that the sources disagree."
+   },
+   {
+    "claim": "[VALMIKI] At Chitrakoot, Vasishtha recites the line again to persuade Rama to come back. He says Manu 'first conferred this world upon Ikshvaku', and ends: 'Among the Ikshvakus the first-born becomes the sovereign.'",
+    "source": "Valmiki Ayodhya Kanda 110",
+    "confidence": "high"
+   },
+   {
+    "claim": "[PURANIC] Vaivasvata Manu, the son of Vivasvat the Sun, is the ancestor of the line. This is why it is called Suryavansha, the Solar dynasty.",
+    "source": "Vishnu Purana 4.1-2; Bhagavata Purana 9.1; Valmiki also names Vivasvat as Manu's father (Bala 70)",
+    "confidence": "high"
+   },
+   {
+    "claim": "[PURANIC/EPIC] The flood: a small fish asks Manu to protect it, grows huge, and warns him of a coming deluge. Manu builds a ship, ties it to the fish's horn, and is carried to a mountain in the north. In the Puranas the fish is Vishnu's Matsya avatar.",
+    "source": "Shatapatha Brahmana 1.8.1 (earliest); Mahabharata Vana Parva (Matsyopakhyana); Matsya Purana; Bhagavata 8.24",
+    "confidence": "high",
+    "note": "Not in Valmiki. In Shatapatha the fish is not yet named as Vishnu."
+   },
+   {
+    "claim": "[PURANIC] Ikshvaku was born from Manu's sneeze ('kshut'). He was the eldest of Manu's sons and had 100 sons; Vikukshi was the eldest.",
+    "source": "Vishnu Purana 4.2; Bhagavata 9.6",
+    "confidence": "medium",
+    "note": "The sneeze etymology is Puranic. Valmiki only says he was Manu's son and Ayodhya's first king."
+   },
+   {
+    "claim": "[PURANIC] The hare story: Ikshvaku sent Vikukshi to fetch meat for an ancestral rite. On the way back the hungry prince ate a hare, so the offering was spoiled. Vasishtha saw it, and Ikshvaku sent his son away. Vikukshi became known as Shashada, 'hare-eater', and later came back to rule.",
+    "source": "Vishnu Purana 4.2; Bhagavata 9.6.6-11",
+    "confidence": "high",
+    "note": "Valmiki names Kukshi and Vikukshi as separate generations (Kukshi, then Vikukshi) and has no hare story."
+   },
+   {
+    "claim": "[PURANIC] Puranjaya, Vikukshi's son, helped the gods fight the asuras. He would only go to battle on Indra's back, so Indra took the form of a bull and Puranjaya rode on its hump ('kakud'). This earned him the name Kakutstha, 'standing on the hump'. Rama and his family are called Kakutstha after him.",
+    "source": "Vishnu Purana 4.2; Bhagavata 9.6.12-19",
+    "confidence": "high",
+    "note": "Valmiki places a different Kakutstha after Bhagiratha (Bala 70; Ayodhya 110 adds 'from whom the Kakutsthas came to be well known'). Valmiki uses 'Kakutstha' for Rama very often (e.g. Bala 40, 60)."
+   },
+   {
+    "claim": "[PURANIC] Mandhata: King Yuvanashva had no son. During a rite he drank by mistake the consecrated water meant for his queen, and the child was born from his own body (from his side). When the baby cried for milk, Indra gave it his finger to suck, saying 'mam dhasyati' ('he will drink me'). That is the origin of the name Mandhata.",
+    "source": "Vishnu Purana 4.2; Bhagavata 9.6.25-33; Mahabharata Vana Parva 126 and Drona Parva",
+    "confidence": "high"
+   },
+   {
+    "claim": "[PURANIC/EPIC] Mandhata became a universal ruler. A verse says the whole land 'from where the sun rises to where it sets' was Mandhata's. He married the daughter of Shashabindu and had sons including Purukutsa and Muchukunda.",
+    "source": "Vishnu Purana 4.2; Mahabharata; Buddhist Mandhatu Jataka (no. 258) tells of a king Mandhatu whose desire was never satisfied even after ruling heaven",
+    "confidence": "medium"
+   },
+   {
+    "claim": "[VALMIKI] In Valmiki's line, Mandhata is the son of Yuvanashva and grandson of Dhundhumara. Valmiki does not tell the birth story.",
+    "source": "Valmiki Bala 70; Ayodhya 110",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Trishanku, a descendant of Ikshvaku, wanted to go to heaven in his own body. He asked his priest Vasishtha, who said it could not be done. Then he asked Vasishtha's sons, who were angered and cursed him to become a Chandala (outcaste), dark and rough-clad.",
+    "source": "Valmiki Bala 57-58",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Vishwamitra took pity on him and held a sacrifice. When the gods would not come, Vishwamitra lifted Trishanku bodily to heaven by his own ascetic power. Indra pushed him back down head first, crying 'Save me!' Vishwamitra called 'Stay!' and in his anger created a new set of stars and seven new Rishis in the southern sky. He even began to create new gods.",
+    "source": "Valmiki Bala 60",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] A compromise was reached: Trishanku stays among Vishwamitra's stars, outside the sun's path, 'with bended head', shining like an immortal. This is the origin of the phrase 'Trishanku's heaven' for being caught between two worlds.",
+    "source": "Valmiki Bala 60; the idiom is later popular usage",
+    "confidence": "high"
+   },
+   {
+    "claim": "[NOTE] Where Trishanku sits in the line is disputed. Valmiki makes him the son of Prithu and an ancestor of Mandhata (Bala 70). The Puranas place him later, as the son of Trayyaruna and father of Harishchandra (Vishnu Purana 4.3; Bhagavata 9.7). Ayodhya 110 says he 'went to heaven in person by virtue of his truth-telling'.",
+    "source": "Valmiki Bala 70, Ayodhya 110; Vishnu Purana 4.3",
+    "confidence": "high"
+   },
+   {
+    "claim": "[PURANIC] Harishchandra, son of Trishanku, is the model of truthfulness. To keep a promise to Vishwamitra he gave up his kingdom, sold his wife and son, and worked at a cremation ground. Even when his own son died, he would not break the rules of his post. The gods then restored everything to him and he went to heaven.",
+    "source": "Markandeya Purana chs. 7-8; Devi Bhagavata Purana 7",
+    "confidence": "high",
+    "note": "Not in Valmiki. For calm narration, tell the son's death gently. Gandhi said the Harishchandra play shaped him as a boy (Autobiography)."
+   },
+   {
+    "claim": "[VEDIC/PURANIC] An older Harishchandra story: he vowed to sacrifice his son Rohita to Varuna in return for being given a son. The boy Shunahshepa was bought as a substitute and was saved by his hymns to the gods.",
+    "source": "Aitareya Brahmana 7.13-18; Bhagavata 9.7",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] In Valmiki the Shunahshepa story belongs to King Ambarisha of Ayodhya, not Harishchandra. Indra stole the horse for Ambarisha's sacrifice. Ambarisha then bought Shunahshepa, the middle son of the sage Richika, because his father would not part with the eldest and his mother would not part with the youngest. Vishwamitra taught the boy two hymns, Indra was pleased and gave him long life, and the sacrifice was completed.",
+    "source": "Valmiki Bala 61-62",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Sagara got his name from being born 'with poison' (sa + gara). His father's rival queen had poisoned his pregnant mother Kalindi, and the sage Chyavana promised her that her child would still be a great son. His father Asita had lost his kingdom to the Haihayas, Talajanghas and Shashabindus.",
+    "source": "Valmiki Bala 70; Ayodhya 110",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Sagara and his two queens, Keshini of Vidarbha and Sumati (sister of Garuda/Suparna), practised austerities for a hundred years. The sage Bhrigu granted that one queen would have a single son to carry on the line and the other would have sixty thousand. Keshini chose one son (Asamanja), and Sumati gave birth to a gourd from which the sixty thousand sons came, raised in jars of ghee.",
+    "source": "Valmiki Bala 38",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Asamanja behaved badly and was sent away from the city. His gentle, well-loved son Anshuman stayed with Sagara.",
+    "source": "Valmiki Bala 38; Ayodhya 110",
+    "confidence": "high",
+    "note": "Keep this gentle; Bala 38 says Asamanja threw children into the Sarayu, which should be left out or softened."
+   },
+   {
+    "claim": "[VALMIKI] Sagara held an Ashvamedha (horse sacrifice). The horse disappeared, and his sixty thousand sons dug through the earth looking for it. On the way they passed the four great elephants who hold up the world (Virupaksha, Mahapadma, Saumanasa, Bhadra). In the north-east they found the horse grazing near the sage Kapila, whom Valmiki identifies as Vasudeva (Vishnu). They accused him of the theft, and Kapila's power turned them to ashes.",
+    "source": "Valmiki Bala 39-40",
+    "confidence": "high",
+    "note": "Narrate gently: 'they were consumed by the sage's power' or 'turned to ash'. Puranas (Bhagavata 9.8) say Indra stole the horse and left it beside Kapila. Valmiki says the earth-digging is how the ocean came to be called 'sagara' (Ayodhya 110)."
+   },
+   {
+    "claim": "[VALMIKI] Anshuman followed his uncles' tunnel, found the ashes and the horse, and finished Sagara's sacrifice. Garuda (Suparna) told him that only the waters of the Ganga could free the souls of the sixty thousand.",
+    "source": "Valmiki Bala 41",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Anshuman, and then his son Dilipa, each tried and failed to bring the Ganga down to earth. Anshuman did austerities in the Himalaya for a vast span of years. Dilipa ruled for 30,000 years, kept worrying about how to save his ancestors, and died without finding a way.",
+    "source": "Valmiki Bala 42, 44",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Bhagiratha left his kingdom to his ministers and did austerities at Gokarna for a thousand years, eating once a month with raised arms. Brahma granted the boon, but warned that only Shiva could withstand the Ganga's fall.",
+    "source": "Valmiki Bala 42",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Bhagiratha worshipped Shiva for a year, standing on one toe. The proud Ganga plunged down meaning to sweep Shiva into the underworld, but she was caught and lost for years in his matted hair. Shiva then released her toward the Bindu lake in seven streams. One stream followed Bhagiratha's chariot while gods, sages and creatures watched in wonder.",
+    "source": "Valmiki Bala 43",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] The sage Jahnu drank up the Ganga when she flooded his sacrificial ground, then let her out through his ears, so she is called Jahnavi. She reached the ocean and the underworld and washed over the ashes, and the sixty thousand rose to heaven. Brahma named her Bhagirathi, 'daughter of Bhagiratha', and also Tripathaga, 'she who flows through three worlds'.",
+    "source": "Valmiki Bala 43-44",
+    "confidence": "high"
+   },
+   {
+    "claim": "[KALIDASA] Dilipa and Nandini: King Dilipa had no son. Vasishtha told him he had once failed to honour the divine cow Surabhi, and that he must serve her daughter Nandini. Dilipa followed the cow through the forest for 21 days. When a lion (Shiva's servant, sent as a test) seized her, Dilipa offered his own body instead. The lion vanished, and Nandini granted him a son, Raghu.",
+    "source": "Kalidasa, Raghuvamsha cantos 1-2 (c. 4th-5th c. CE)",
+    "confidence": "high",
+    "note": "This Dilipa is not Valmiki's Dilipa (Bhagiratha's father). Kalidasa's line runs Dilipa, Raghu, Aja, Dasharatha. The Puranas also have a Dilipa II (Khatvanga) close to Raghu."
+   },
+   {
+    "claim": "[KALIDASA] Raghu, son of Dilipa, guarded his father's horse sacrifice and even held off Indra. Later he conquered every direction (digvijaya), then performed the Vishvajit sacrifice and gave away all his wealth.",
+    "source": "Raghuvamsha cantos 3-4",
+    "confidence": "high"
+   },
+   {
+    "claim": "[KALIDASA] Kautsa: the young scholar Kautsa came to Raghu needing 14 crore gold coins as a parting gift for his teacher Varatantu. Raghu had already given everything away and was eating from clay vessels. Raghu planned to take the gold from Kubera, the god of wealth, but that night gold rained into his treasury. Raghu wanted Kautsa to take all of it; Kautsa would take only what he needed.",
+    "source": "Raghuvamsha canto 5",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI + KALIDASA] The dynasty is called 'Raghuvamsha' and Rama 'Raghava' or 'Raghunandana' after Raghu. Valmiki says 'Kakutstha had Raghu for his son; after whom have been named the Raghavas.'",
+    "source": "Valmiki Ayodhya 110; Kalidasa's poem title Raghuvamsha",
+    "confidence": "high",
+    "note": "In Valmiki, Raghu comes many generations before Dasharatha (his son is Kalmashapada). In Kalidasa and most Puranas he is Dasharatha's grandfather."
+   },
+   {
+    "claim": "[KALIDASA] Aja and Indumati: Raghu's son Aja won Princess Indumati of Vidarbha at her svayamvara, where she walked past many kings and chose him. Years later, a garland from the sky (dropped by the sage Narada's vina) fell on her and she died. Aja's lament is one of the most famous passages in Sanskrit poetry. He raised their son Dasharatha and later gave up his own life at the confluence of the Ganga and Sarayu to rejoin her.",
+    "source": "Raghuvamsha cantos 5-8",
+    "confidence": "high",
+    "note": "Indumati was a heavenly nymph (apsara) under a curse, and touching the heavenly garland released her. Valmiki has Aja only as a name: son of Nabhaga, father of Dasharatha."
+   },
+   {
+    "claim": "[VALMIKI] Dasharatha of Ayodhya had no son. He performed the Ashvamedha and the Putrakameshti (sacrifice for sons), and from the fire came a being with divine payasa (rice pudding). He shared it among his queens Kausalya, Kaikeyi and Sumitra, and Rama, Bharata, Lakshmana and Shatrughna were born.",
+    "source": "Valmiki Bala 8-18",
+    "confidence": "high",
+    "note": "Not checked in the file for this pass; well-known Valmiki content."
+   },
+   {
+    "claim": "[VALMIKI] Dasharatha had once promised Kaikeyi two boons. She used them to have Bharata crowned and Rama exiled for 14 years. Bound by his word, Dasharatha agreed, and he died of grief soon after Rama left. This links him back to the truthfulness of his ancestors.",
+    "source": "Valmiki Ayodhya Kanda (c. 9-12, 64)",
+    "confidence": "high"
+   },
+   {
+    "claim": "[VALMIKI] Rama is the eldest son of Dasharatha. Vasishtha reminds him at Chitrakoot that among the Ikshvakus the first-born rules. Rama still refuses to break his father's word and stays in the forest; Bharata rules as regent with Rama's sandals on the throne.",
+    "source": "Valmiki Ayodhya 110-112",
+    "confidence": "high"
+   },
+   {
+    "claim": "[LATER] After Rama, his sons Kusha and Lava carry the line on. Kusha rules from Kushavati and later returns to Ayodhya, and the Raghuvamsha continues through Atithi down to the last king, Agnivarna. The Puranas carry the line on to Brihadbala, killed in the Mahabharata war, and later to Sumitra.",
+    "source": "Raghuvamsha cantos 15-19; Vishnu Purana 4.4, 4.22; Bhagavata 9.12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "[BUDDHIST/JAIN] Buddhist texts trace the Shakya clan, the Buddha's family, back to King Okkaka (the Pali form of Ikshvaku), whose banished children founded Kapilavastu. Jain tradition calls Rishabhanatha, the first Tirthankara, an Ikshvaku, and counts many Tirthankaras in the Ikshvaku clan.",
+    "source": "Ambattha Sutta (Digha Nikaya 3); Mahavamsa ch. 2; Jain Kalpa Sutra / Adipurana",
+    "confidence": "medium"
+   }
+  ],
+  "differences": [
+   "Valmiki's order (Bala 70) has Trishanku BEFORE Mandhata (Prithu > Trishanku > Dhundhumara > Yuvanashva > Mandhata). The Puranas put Trishanku long after Mandhata, as Harishchandra's father.",
+   "Valmiki's Kakutstha is Bhagiratha's son. The Puranic Kakutstha (Puranjaya, the one who rode Indra as a bull) is Ikshvaku's grandson.",
+   "Valmiki: Bhagiratha > Kakutstha > Raghu > Kalmashapada > ... > Nabhaga > Aja > Dasharatha (about 34 generations from Ikshvaku). Kalidasa: Dilipa > Raghu > Aja > Dasharatha. Vishnu and Bhagavata Puranas: about 60 or more kings, with Raghu > Aja > Dasharatha.",
+   "There are two Dilipas: Valmiki's Dilipa is Bhagiratha's father (the Ganga story); Kalidasa's Dilipa is Raghu's father (the cow Nandini story).",
+   "Valmiki Ayodhya 110 differs slightly from Bala 70 (no Yayati; Nabhaga has two sons, Aja and Suvrata).",
+   "Shunahshepa: in Valmiki he is bought by King Ambarisha (Bala 61-62); in the Aitareya Brahmana and the Puranas the story belongs to Harishchandra's son Rohita.",
+   "Who stole the horse: Valmiki leaves the thief unnamed and has Kapila as Vasudeva (Vishnu); the Puranas say Indra stole it.",
+   "Ikshvaku's sneeze birth, Vikukshi's hare, Puranjaya on the bull, Mandhata's birth, Harishchandra, and the flood story are all NOT in Valmiki."
+  ],
+  "lineage": [
+   "Brahma",
+   "Marichi",
+   "Kashyapa",
+   "Vivasvat (Surya)",
+   "Vaivasvata Manu",
+   "Ikshvaku (first king of Ayodhya)",
+   "Kukshi",
+   "Vikukshi",
+   "Bana",
+   "Anaranya",
+   "Prithu",
+   "Trishanku",
+   "Dhundhumara",
+   "Yuvanashva",
+   "Mandhata",
+   "Susandhi",
+   "Dhruvasandhi (brother Prasenajit)",
+   "Bharata",
+   "Asita",
+   "Sagara",
+   "Asamanja",
+   "Anshuman",
+   "Dilipa",
+   "Bhagiratha",
+   "Kakutstha",
+   "Raghu",
+   "Pravriddha / Kalmashapada",
+   "Shankhana",
+   "Sudarshana",
+   "Agnivarna",
+   "Shighraga",
+   "Maru",
+   "Prashushruka",
+   "Ambarisha",
+   "Nahusha",
+   "Yayati (omitted in Ayodhya 110)",
+   "Nabhaga",
+   "Aja",
+   "Dasharatha",
+   "Rama, Lakshmana (with Bharata, Shatrughna)"
+  ]
+ },
+ {
+  "facts": [
+   {
+    "claim": "Before leaving for heaven, Rama installs Kusha (OCR 'Kusi') in the kingdom of Kosala and Lava in 'the northern country' (North Kosala), on Bharata's suggestion, giving each a thousand chariots, ten thousand (ayuta) elephants and horses, and treasure.",
+    "source": "Valmiki Ramayana, Uttara Kanda sarga 107 (Dutt tr., dutt_valmiki.txt line ~4221-4223)",
+    "confidence": "high"
+   },
+   {
+    "claim": "Rama's messengers tell Shatrughna that Rama built the 'spacious city of Kusavati at the foot of the Vindhya range' for Kusha, and the city of 'Sravanti' (Shravasti) for Lava.",
+    "source": "Valmiki Ramayana, Uttara Kanda sarga 108 (Dutt tr., line 4224)",
+    "confidence": "high",
+    "note": "Dutt's OCR has 'Sravanti'. Critical-edition readings give Shravasti. The text puts Kushavati near the Vindhyas, south of old Kosala, even though Kusha is said to rule 'Kosala'."
+   },
+   {
+    "claim": "In the same sarga Shatrughna also divides his realm: Subahu gets Mathura and Shatrughati gets Vidisha. So the next generation of the whole Raghu family spreads out from Ayodhya, which Rama's departure leaves 'void of men'.",
+    "source": "Valmiki Ramayana, Uttara Kanda sarga 108",
+    "confidence": "high"
+   },
+   {
+    "claim": "The twins are named at birth in Valmiki's hermitage, from the kusha grass (upper part) and lava (lower part) used in the protective rite. Kusha is the elder. Later they sing the Ramayana at Rama's horse sacrifice, and Rama recognises them as Sita's sons.",
+    "source": "Valmiki Ramayana, Uttara Kanda sargas 66, 93-97",
+    "confidence": "high"
+   },
+   {
+    "claim": "Rama tells Vibhishana to worship Jagannatha (Vishnu), 'the presiding deity of the Ikshvaku race'.",
+    "source": "Valmiki Ramayana, Uttara Kanda sarga 108 (Dutt tr.)",
+    "confidence": "high",
+    "note": "Useful as a 'family deity' detail. Dutt's wording may be interpretive."
+   },
+   {
+    "claim": "The Videha/Janaka line of Mithila is presented as a branch of the Ikshvakus: Nimi was 'the twelfth of Ikshvaku's sons', and the first Janaka (Mithi) was born from churning Nimi's body.",
+    "source": "Valmiki Ramayana, Uttara Kanda sargas 56-57 (Dutt tr., lines 4015-4026)",
+    "confidence": "high",
+    "note": "Janaka's own genealogy in Bala 71 starts from Nimi but does not say Nimi was Ikshvaku's son. The link comes from the Uttara Kanda."
+   },
+   {
+    "claim": "Why it is the Solar line: Vasishtha's genealogy runs Brahma > Marichi > Kashyapa > Vivasvat > Manu (Prajapati) > Ikshvaku, 'the first king of Ayodhya'. Vivasvat (Vivasvan) is a name of the Sun god (an Aditya, a son of Kashyapa and Aditi), so his descendants through Manu Vaivasvata and Ikshvaku are the Suryavamsha, the Solar dynasty.",
+    "source": "Valmiki Ramayana, Bala Kanda 70 and Ayodhya Kanda 110 (genealogy); Vivasvan = Surya is standard Vedic/Puranic identification",
+    "confidence": "high"
+   },
+   {
+    "claim": "Bhagavad Gita 4.1 places Ikshvaku in a solar chain of teaching: Krishna taught imperishable yoga to Vivasvan (the Sun), Vivasvan to Manu, and Manu to Ikshvaku.",
+    "source": "Mahabharata, Bhishma Parva, Bhagavad Gita 4.1",
+    "confidence": "high"
+   },
+   {
+    "claim": "The Lunar dynasty (Chandravamsha) also starts from the Manu/Ila line: Ila is changed into a woman, and as Ila bears Pururavas to Budha, son of the Moon. In Valmiki's Uttara Kanda, though, Ila is the son of Kardama and rules in Bahlika, not a child of Manu as in the Puranas.",
+    "source": "Valmiki Ramayana, Uttara Kanda sargas 87-90 (Dutt tr., lines 4144-4160); Puranas (e.g. Vishnu Purana 4.1) make Ila Manu's child",
+    "confidence": "medium",
+    "note": "There is a real difference between the Ramayana and the Puranas here. Flag it if the video says 'Solar and Lunar lines are cousins'."
+   },
+   {
+    "claim": "Name variants: Ikshvaku-vamsha or Aikshvaka (from Ikshvaku); Raghuvamsha or Raghukula, with members called Raghava (from King Raghu); Kakutstha (from King Kakutstha); Suryavamsha or Ravivamsha / Solar dynasty (from Vivasvan). Valmiki says explicitly that 'from Kakutstha the Kakutsthas came to be known' and that the Raghavas are named after Raghu.",
+    "source": "Valmiki Ramayana, Ayodhya Kanda 110 (Dutt tr., line 1181)",
+    "confidence": "high"
+   },
+   {
+    "claim": "Valmiki and the Puranas disagree on where Kakutstha sits. Valmiki makes Kakutstha Bhagiratha's son and Raghu's father. The Puranas make Kakutstha (Puranjaya, who fought sitting on the hump, kakud, of Indra in bull form) the grandson of Ikshvaku through Vikukshi/Shashada, many generations before Sagara.",
+    "source": "Valmiki Ayodhya 110 / Bala 70 vs. Vishnu Purana 4.2, Bhagavata Purana 9.6",
+    "confidence": "high",
+    "note": "There are several such discrepancies. Valmiki's list (about 35 kings from Ikshvaku to Rama) is much shorter than the Puranic lists (about 60+). It also puts Nahusha, Yayati and Nabhaga just before Aja, and Nahusha and Yayati are normally Lunar-dynasty kings."
+   },
+   {
+    "claim": "The word Ikshvaku is popularly linked with ikshu, 'sugarcane'. A king Ikshvaku is named once in the Rigveda (10.60.4) and once in the Atharvaveda (19.39.9). Purukutsa is called an Aikshvaka in the Shatapatha Brahmana.",
+    "source": "Rigveda 10.60.4; Atharvaveda 19.39.9; Shatapatha Brahmana 13.5.4.5",
+    "confidence": "medium",
+    "note": "The Vedic mentions are well known. The sugarcane etymology is a folk or Jain explanation, not a settled linguistic fact."
+   },
+   {
+    "claim": "In Kalidasa's Raghuvamsha, Rama gives Kusha Kushavati and Lava Sharavati (Shravasti) (canto 15). In canto 16 the abandoned goddess of Ayodhya appears to Kusha at night. He moves the capital back to Ayodhya and restores it, then marries Kumudvati, sister of the Naga Kumuda, who had returned the jewelled bracelet Kusha lost in the Sarayu.",
+    "source": "Kalidasa, Raghuvamsha cantos 15-16 (c. 4th-5th century CE)",
+    "confidence": "high"
+   },
+   {
+    "claim": "Kusha dies fighting the demon Durjaya as Indra's ally, killing him in the battle. His son by Kumudvati, Atithi, becomes king and is shown as an ideal ruler.",
+    "source": "Kalidasa, Raghuvamsha canto 17",
+    "confidence": "high"
+   },
+   {
+    "claim": "Canto 18 runs quickly through 21 kings after Atithi: Nishadha, Nala, Nabhas, Pundarika, Kshemadhanvan, Devanika, Ahinagu, Pariyatra, Shila, Unnabha, Vajranabha, Shankhana, Vyushitashva, Vishvasaha, Hiranyanabha, Kausalya, Brahmishtha, Putra, Pushya, Dhruvasandhi and Sudarshana (made king as a child).",
+    "source": "Kalidasa, Raghuvamsha canto 18",
+    "confidence": "medium",
+    "note": "The sequence is right in outline. A few spellings or the exact order may differ between editions."
+   },
+   {
+    "claim": "The poem ends with Agnivarna, a pleasure-loving king who leaves government to his ministers, shows only his foot to petitioners through a window, and dies of consumption (rajayakshma). His pregnant queen is consecrated and rules as regent for the unborn heir, and the poem stops there.",
+    "source": "Kalidasa, Raghuvamsha canto 19",
+    "confidence": "high",
+    "note": "Scholars debate whether the abrupt ending is deliberate (a moral decline) or whether the poem is unfinished."
+   },
+   {
+    "claim": "The Puranic line after Kusha: Atithi, Nishadha, Nala, Nabhas, Pundarika, Kshemadhanvan, Devanika, Ahinagu, Pariyatra, Bala/Dala, Uktha, Vajranabha, Shankhana, Vyushitashva, Vishvasaha, Hiranyanabha, Pushya, Dhruvasandhi, Sudarshana, Agnivarna, Shighra, Maru, Prasushruta, Susandhi, Amarsha, Mahasvat, Vishrutavat, Brihadbala. These names largely match Kalidasa's.",
+    "source": "Vishnu Purana 4.4; Bhagavata Purana 9.12; also Vayu 88 / Brahmanda",
+    "confidence": "medium",
+    "note": "The lists differ in detail from Purana to Purana."
+   },
+   {
+    "claim": "Hiranyanabha of this line is remembered as a yoga master, a pupil of Jaimini and a teacher of Yajnavalkya of Kosala.",
+    "source": "Vishnu Purana 4.4; Bhagavata Purana 9.12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "King Maru of this line is said to live on through yoga in the village of Kalapa in the Himalayas. At the end of the Kali Yuga he will revive the Solar Kshatriya line.",
+    "source": "Bhagavata Purana 9.12.6; Vishnu Purana 4.4 and 4.24",
+    "confidence": "medium",
+    "note": "This makes a good 'the line never truly dies' ending."
+   },
+   {
+    "claim": "Brihadbala, king of Kosala and an Ikshvaku, fought for the Kauravas in the Kurukshetra war. Arjuna's son Abhimanyu killed him on the 13th day, inside Drona's chakravyuha.",
+    "source": "Mahabharata, Drona Parva (Abhimanyu-vadha section); Vishnu Purana 4.4, Bhagavata 9.12.8 (Brihadbala 'slain by Abhimanyu in the Bharata war')",
+    "confidence": "high"
+   },
+   {
+    "claim": "Before the war, Bhima defeated Brihadbala of Kosala during his eastern conquest for Yudhishthira's Rajasuya.",
+    "source": "Mahabharata, Sabha Parva (Bhima's digvijaya)",
+    "confidence": "medium"
+   },
+   {
+    "claim": "The Puranas give a 'future' list of about 25-30 Ikshvaku kings after Brihadbala. It includes Shakya, Shuddhodana and then Rahula / Langala, Prasenajit, Kshudraka, Ranaka/Kundaka, Suratha and finally Sumitra. Bhagavata 9.12.16 states that the Ikshvaku dynasty will end with Sumitra in the Kali age.",
+    "source": "Bhagavata Purana 9.12.9-16; Vishnu Purana 4.22",
+    "confidence": "medium",
+    "note": "Sumitra as the last king is well attested. The exact names before him vary. Scholars such as F.E. Pargiter treat this late list as a blend of the Shakya chiefs and the Kosala kings (Prasenajit of Kosala was the Buddha's contemporary), so it is not a reliable single genealogy."
+   },
+   {
+    "claim": "Buddhist tradition: in the Ambattha Sutta the Buddha says the Shakyas descend from King Okkaka (Pali for Ikshvaku). To please a favourite queen, Okkaka exiled his elder sons (Okkamukha, Karakanda, Hatthinika, Sinipura). They settled by a lake on the Himalayan slopes in a saka (teak) grove and married their own sisters to keep the blood pure, so they were called Sakyas. In the same sutta the Ambattha clan descends from Kanha, son of Okkaka's slave-girl Disa.",
+    "source": "Digha Nikaya 3, Ambattha Sutta",
+    "confidence": "high"
+   },
+   {
+    "claim": "In the Sutta Nipata the Buddha (or the Bodhisatta) tells King Bimbisara that his people live in Kosala at the foot of the Himalayas, are 'Adicca (Solar) by clan and Sakiya by birth'. The Buddha is also called Adiccabandhu, 'kinsman of the Sun'.",
+    "source": "Sutta Nipata 3.1 Pabbajja Sutta (vv. 422-423); epithet Adiccabandhu throughout the Pali Canon",
+    "confidence": "high"
+   },
+   {
+    "claim": "The Mahavamsa (Sri Lanka, c. 5th-6th century CE) traces the Buddha's line from the first king Mahasammata through many kings, including Okkaka and Okkamukha, down to Sihahanu and Suddhodana, father of Siddhartha. The Mahavastu (Sanskrit) and the Dipavamsa tell similar Ikshvaku origin stories.",
+    "source": "Mahavamsa ch. 2; Dipavamsa; Mahavastu",
+    "confidence": "medium",
+    "note": "The individual names in the Mahavamsa list should not be quoted on screen without checking."
+   },
+   {
+    "claim": "Jain tradition: Rishabhanatha, the first Tirthankara, founded the Ikshvaku clan. The usual story is that Indra offered sugarcane (ikshu) to the infant Rishabha, or that Rishabha wished for it, which gave the clan its name. His son Bharata is the first Chakravartin.",
+    "source": "Jain tradition: Adipurana of Jinasena; Kalpa Sutra tradition; Avashyaka niryukti",
+    "confidence": "medium",
+    "note": "The founding claim is well established in Jain tradition. The versions differ on who offered the sugarcane and why."
+   },
+   {
+    "claim": "In Jain tradition most Tirthankaras (commonly given as 22 of 24) were born in the Ikshvaku clan. The usual exceptions are Munisuvrata (20th) and Neminatha (22nd), who belong to the Harivamsha. Mahavira's Jnatri clan is also counted as Ikshvaku in many accounts.",
+    "source": "Jain tradition (Shvetambara and Digambara sources)",
+    "confidence": "medium",
+    "note": "The '22 of 24' figure is widely repeated, but the exact count and the status of Mahavira's clan vary between sources. Hedge it on screen."
+   },
+   {
+    "claim": "Jain Ramayanas such as Vimalasuri's Paumachariya (Prakrit, early centuries CE) also make Rama an Ikshvaku prince. In this version Lakshmana, not Rama, kills Ravana, and Rama ends as a Jain monk who attains liberation.",
+    "source": "Vimalasuri, Paumachariya; Ravishena, Padmapurana (Jain)",
+    "confidence": "high"
+   },
+   {
+    "claim": "A historical dynasty called the Ikshvakus ruled the lower Krishna valley (Andhra) in the 3rd century CE, with its capital at Vijayapuri (Nagarjunakonda). Its kings included Vasishthiputra Chamtamula and Virapurushadatta, and its queens were great patrons of Buddhism.",
+    "source": "Nagarjunakonda inscriptions; standard Indian epigraphy",
+    "confidence": "high",
+    "note": "The dynasty's existence and the name it used are attested. A real descent from the epic Ikshvakus cannot be checked."
+   },
+   {
+    "claim": "Several later Rajput clans claim descent from Rama's sons: the Kachhwahas of Amber/Jaipur from Kusha, and the Guhila/Sisodia house of Mewar and the Bargujars from Lava. A folk tradition links Lahore (Lavapura) to Lava and Kasur to Kusha.",
+    "source": "Rajput bardic genealogies; Tod's Annals of Rajasthan; local folklore",
+    "confidence": "low",
+    "note": "These are family and folk claims, not historical evidence. Present them as 'claimed' or 'traditionally said'."
+   },
+   {
+    "claim": "In the Puranas Kusha rules from Kushasthali/Kushavati in the Vindhya region and Lava from Shravasti in North Kosala, which matches Valmiki's Uttara Kanda.",
+    "source": "Vayu Purana 88; Vishnu Purana 4.4; Raghuvamsha 15",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Harivamsha (Harivamsha Parva ch. ~10-15) gives an Ikshvaku genealogy from Ikshvaku through Sagara, Bhagiratha and Raghu down to Rama and Kusha, broadly in line with the Vishnu Purana.",
+    "source": "Harivamsha (appendix of the Mahabharata)",
+    "confidence": "low",
+    "note": "These chapter numbers come from memory and are not checked. Use only a general reference."
+   }
+  ],
+  "differences": [
+   "Valmiki (Bala 70 / Ayodhya 110) makes Kakutstha the son of Bhagiratha; the Puranas place Kakutstha (Puranjaya) just after Ikshvaku's son Vikukshi.",
+   "Valmiki goes straight from Raghu to Kalmashapada and later lists Nahusha, Yayati and Nabhaga before Aja. Raghuvamsha and the Puranas run Dilipa > Raghu > Aja > Dasharatha (Raghuvamsha) or put Kalmashapada long before Raghu.",
+   "Valmiki's list from Ikshvaku to Rama has about 35 generations; the Puranic lists have about 60+.",
+   "Valmiki's Uttara Kanda makes Ila the son of Kardama, king of Bahlika; the Puranas make Ila Manu's child.",
+   "Lava's city: Dutt's OCR reads 'Sravanti'; Raghuvamsha says 'Sharavati'; the Puranas say Shravasti. All are taken to mean Shravasti in North Kosala.",
+   "After Kusha: Raghuvamsha ends with Agnivarna and a regent queen; the Puranas go on through Brihadbala (killed in the Mahabharata war) to Sumitra, the last king.",
+   "The Puranic kings after Brihadbala include Shakya, Shuddhodana and Prasenajit. This seems to combine the Buddhist Shakya clan and the historical Kosala kings into one list.",
+   "Buddhist texts call the founder Okkaka and tie him to the Shakyas; Jain texts make Rishabhanatha the founder of the Ikshvaku clan. Each tradition adopts the solar-royal lineage for its own founder."
+  ],
+  "lineage": [
+   "Brahma > Marichi > Kashyapa > Vivasvat (the Sun) > Manu Vaivasvata > Ikshvaku (first king of Ayodhya) [Valmiki Bala 70, Ayodhya 110]",
+   "Ikshvaku > Nimi (12th son) > Mithi/Janaka: the Videha branch [Valmiki Uttara 56-57]",
+   "Rama > Kusha (Kushavati at the foot of the Vindhyas, later back at Ayodhya per Raghuvamsha) and Lava (Shravasti, North Kosala) [Valmiki Uttara 107-108]",
+   "Kusha + Kumudvati > Atithi > Nishadha > Nala > Nabhas > Pundarika > Kshemadhanvan > Devanika > Ahinagu > Pariyatra > Shila/Bala > Unnabha/Uktha > Vajranabha > Shankhana > Vyushitashva > Vishvasaha > Hiranyanabha > (Kausalya > Brahmishtha > Putra) > Pushya > Dhruvasandhi > Sudarshana > Agnivarna [Raghuvamsha 17-19; Vishnu Purana 4.4 broadly the same]",
+   "Puranic continuation: Agnivarna > Shighra > Maru (lives on in Kalapa) > Prasushruta > Susandhi > Amarsha > Mahasvat > Vishrutavat > Brihadbala (killed by Abhimanyu at Kurukshetra) [Vishnu Purana 4.4; Bhagavata 9.12]",
+   "Future kings after Brihadbala: Brihatkshana/Brihadrana ... Shakya > Shuddhodana > Rahula/Langala > Prasenajit > Kshudraka > Ranaka/Kundaka > Suratha > Sumitra (the last) [Bhagavata 9.12.9-16; Vishnu Purana 4.22; medium confidence on the middle names]",
+   "Buddhist: Okkaka (Ikshvaku) > exiled sons Okkamukha, Karakanda, Hatthinika, Sinipura > Sakya clan > ... Sihahanu > Suddhodana > Siddhartha Gautama [Ambattha Sutta; Mahavamsa 2]",
+   "Jain: Rishabhanatha founds the Ikshvaku clan > Bharata Chakravarti; most Tirthankaras are Ikshvakus [Jain tradition]"
+  ]
+ }
+]
