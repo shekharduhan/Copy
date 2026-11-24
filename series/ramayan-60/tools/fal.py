@@ -34,11 +34,14 @@ _LOCK = threading.Lock()
 
 
 def _spend(add=0.0):
-  with _LOCK:
-    led = json.loads(LEDGER.read_text()) if LEDGER.exists() else {"total": 0.0, "calls": 0}
-    if add:
-        led["total"] = round(led["total"] + add, 4); led["calls"] += 1; LEDGER.write_text(json.dumps(led, indent=1))
-    return led["total"]
+    """Read (and optionally add to) the estimated spend; file-locked so parallel batches share one total."""
+    import fcntl
+    with _LOCK, open(LEDGER.with_suffix(".lock"), "w") as lk:
+        fcntl.flock(lk, fcntl.LOCK_EX)
+        led = json.loads(LEDGER.read_text()) if LEDGER.exists() else {"total": 0.0, "calls": 0}
+        if add:
+            led["total"] = round(led["total"] + add, 4); led["calls"] += 1; LEDGER.write_text(json.dumps(led, indent=1))
+        return led["total"]
 Q = "https://queue.fal.run"
 
 

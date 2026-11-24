@@ -14,3 +14,4 @@ films/*/audio/sfx.wav
 series/*/ep*/audio/beat_*.wav
 series/*/ep*/clips/
 series/*/ep*/out/
+series/*/spend.lock
