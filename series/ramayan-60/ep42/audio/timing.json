@@ -1,0 +1,48 @@
+{
+ "ep": 42,
+ "duration": 60.61,
+ "beats": [
+  {
+   "beat": 1,
+   "start": 0.6,
+   "end": 9.055,
+   "text": "Hanuman searched Ravana's palace room by room, past drunken guards, dancing halls and golden chambers, but found no Sita."
+  },
+  {
+   "beat": 2,
+   "start": 9.555,
+   "end": 20.837,
+   "text": "He saw Ravana asleep, surrounded by beautiful queens. For a moment he thought one was Sita, then shook his head. 'Sita would never sleep here, happy.'"
+  },
+  {
+   "beat": 3,
+   "start": 21.337,
+   "end": 28.926,
+   "text": "He searched every house in Lanka. Nothing. He sat on a wall in despair. Had she died? Had he failed Rama?"
+  },
+  {
+   "beat": 4,
+   "start": 29.426,
+   "end": 33.666,
+   "text": "At last he saw a garden of Ashoka trees, glowing in the moonlight."
+  },
+  {
+   "beat": 5,
+   "start": 34.166,
+   "end": 44.523,
+   "text": "Beneath one tree sat a thin, pale woman in plain, dusty yellow clothes, her hair in a single braid, her eyes full of tears."
+  },
+  {
+   "beat": 6,
+   "start": 45.023,
+   "end": 53.589,
+   "text": "Ferocious demonesses guarded her, with the faces of horses, boars and buffaloes. She wept, whispering Rama's name."
+  },
+  {
+   "beat": 7,
+   "start": 54.089,
+   "end": 58.91,
+   "text": "Hanuman hid in the branches above, his heart pounding. He had found her."
+  }
+ ]
+}
