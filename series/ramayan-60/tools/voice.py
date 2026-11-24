@@ -26,6 +26,8 @@ def beat_audio(text, dst):
             r = {"error": str(e)}
         if (r.get("audio") or {}).get("url"):
             break
+        if "content_policy" in str(r):          # retrying a blocked line only wastes credit
+            raise RuntimeError(f"CONTENT BLOCKED: {text}")
         print(f"  voice retry {attempt + 1}: {str(r)[:200]}", file=sys.stderr); time.sleep(10 * (attempt + 1))
     else:
         raise RuntimeError(f"no audio for: {text[:60]}")
