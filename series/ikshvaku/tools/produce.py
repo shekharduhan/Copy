@@ -123,7 +123,7 @@ def image_one(b):
     if dst.exists():
         return "exists"
     names = refs_for(b["visual"])
-    p = (f"{STYLE}. Wide 16:9 cinematic frame from Indian epic history (the Ikshvaku dynasty). Scene: {b['visual']}. "
+    p = (f"{STYLE}. Full-bleed 16:9 picture filling the whole frame (no black bars), from Indian epic history (the Ikshvaku dynasty). Scene: {b['visual']}. "
          + (f"Characters (match the reference images): {'; '.join(CHARS[n]['desc'] for n in names)}. " if names else "")
          + "Ancient India, majestic and calm, characters fully clothed. No signboards or writing; absolutely no text, letters or captions.")
     tries = []
@@ -254,6 +254,10 @@ def compose():
         if f not in cache:
             if len(cache) > 6: cache.pop(next(iter(cache)))
             im = Image.open(f).convert("RGB")
+            a = np.asarray(im.convert("L")); dark = a.mean(1) < 10      # trim letterbox bars the model painted in
+            top = int(np.argmax(~dark)); bot = int(np.argmax(~dark[::-1]))
+            if top > 6 or bot > 6:
+                im = im.crop((0, top + 2, im.width, im.height - bot - 2))
             if im.width < W * 1.6: im = im.resize((im.width * 2, im.height * 2), Image.LANCZOS)
             cache[f] = im
         return cache[f]
