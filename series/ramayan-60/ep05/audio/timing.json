@@ -1,0 +1,54 @@
+{
+ "ep": 5,
+ "duration": 61.14,
+ "beats": [
+  {
+   "beat": 1,
+   "start": 0.6,
+   "end": 6.863,
+   "text": "On the road to Mithila, they found an empty ashram, silent for centuries. No bird sang there."
+  },
+  {
+   "beat": 2,
+   "start": 7.363,
+   "end": 15.073,
+   "text": "'This was the home of Sage Gautama,' said Vishwamitra. 'His wife Ahalya was the most beautiful woman the creator ever made.'"
+  },
+  {
+   "beat": 3,
+   "start": 15.573,
+   "end": 23.84,
+   "text": "'One day, Indra came disguised as Gautama, and Ahalya was deceived. When the sage returned, he cursed them both.'"
+  },
+  {
+   "beat": 4,
+   "start": 24.34,
+   "end": 33.44,
+   "text": "'She would live here unseen, living on air, doing penance, until Rama came.' Many later tellings say she was turned to stone."
+  },
+  {
+   "beat": 5,
+   "start": 33.94,
+   "end": 41.755,
+   "text": "As Rama entered, the curse broke. Ahalya appeared, radiant and free, shining like the moon behind clouds."
+  },
+  {
+   "beat": 6,
+   "start": 42.255,
+   "end": 46.873,
+   "text": "Rama and Lakshmana bowed and touched her feet, as one honors a mother."
+  },
+  {
+   "beat": 7,
+   "start": 47.373,
+   "end": 52.882,
+   "text": "She bowed in gratitude. Flowers fell from the sky, and divine drums sounded."
+  },
+  {
+   "beat": 8,
+   "start": 53.382,
+   "end": 59.442,
+   "text": "Rama had not fought anyone, yet he had won his gentlest victory. Her long penance had ended."
+  }
+ ]
+}
