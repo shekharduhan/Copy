@@ -17,7 +17,7 @@ import time
 
 KEY = os.environ.get("FAL_KEY", "proxy-injected")
 LEDGER = pathlib.Path(__file__).resolve().parent.parent / "spend.json"
-BUDGET = float(os.environ.get("FAL_BUDGET", "16.0"))      # dollars; the user has $18 left in total
+BUDGET = float(os.environ.get("FAL_BUDGET", "14.5"))      # dollars; the user has $18 left and asked to stay under $16
 PRICE = {                                                    # estimates from fal.ai's listed prices
     "fal-ai/nano-banana": 0.039, "fal-ai/nano-banana/edit": 0.039,
     "fal-ai/flux/schnell": 0.004, "fal-ai/flux/dev": 0.025, "fal-ai/esrgan": 0.003,
