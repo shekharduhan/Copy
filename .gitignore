@@ -18,3 +18,6 @@ series/*/spend.lock
 series/*/ep*/audio/music.wav
 series/*/ep*/audio/narration.wav
 series/*/delivery/
+series/ikshvaku/research/dutt_valmiki.txt
+series/ikshvaku/audio/*.wav
+series/ikshvaku/out/
