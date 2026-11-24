@@ -15,8 +15,20 @@ GAP, LEAD, TAIL = 0.5, 0.6, 1.2
 def beat_audio(text, dst):
     if dst.exists():
         return dst
-    r = fal.run("fal-ai/minimax/speech-02-hd", {"text": text, "output_format": "url",
-                "voice_setting": {"voice_id": VOICE_ID, "speed": SPEED, "vol": 1, "pitch": 0, "emotion": "neutral"}})
+    import time
+    for attempt in range(4):
+        try:
+            r = fal.run("fal-ai/minimax/speech-02-hd", {"text": text, "output_format": "url",
+                        "voice_setting": {"voice_id": VOICE_ID, "speed": SPEED, "vol": 1, "pitch": 0, "emotion": "neutral"}})
+        except fal.BudgetExceeded:
+            raise
+        except Exception as e:
+            r = {"error": str(e)}
+        if (r.get("audio") or {}).get("url"):
+            break
+        print(f"  voice retry {attempt + 1}: {str(r)[:200]}", file=sys.stderr); time.sleep(10 * (attempt + 1))
+    else:
+        raise RuntimeError(f"no audio for: {text[:60]}")
     mp3 = dst.with_suffix(".mp3"); fal.download(r["audio"]["url"], mp3)
     import subprocess
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(mp3), "-ac", "1", "-ar", "44100", str(dst)], check=True); mp3.unlink()
