@@ -15,3 +15,5 @@ series/*/ep*/audio/beat_*.wav
 series/*/ep*/clips/
 series/*/ep*/out/
 series/*/spend.lock
+series/*/ep*/audio/music.wav
+series/*/ep*/audio/narration.wav
