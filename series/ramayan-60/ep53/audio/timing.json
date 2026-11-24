@@ -1,0 +1,54 @@
+{
+ "ep": 53,
+ "duration": 54.65,
+ "beats": [
+  {
+   "beat": 1,
+   "start": 0.6,
+   "end": 7.23,
+   "text": "The fighting grew fiercer each day. Indrajit struck again and again, appearing and vanishing in the sky."
+  },
+  {
+   "beat": 2,
+   "start": 7.73,
+   "end": 12.06,
+   "text": "Lakshmana fought him arrow for arrow, protecting his brother's army."
+  },
+  {
+   "beat": 3,
+   "start": 12.56,
+   "end": 22.033,
+   "text": "At last a mighty Shakti weapon was hurled at Lakshmana, blazing like lightning. Valmiki says Ravana threw it; many tellings say Indrajit."
+  },
+  {
+   "beat": 4,
+   "start": 22.533,
+   "end": 26.344,
+   "text": "Lakshmana fell, unconscious and barely breathing."
+  },
+  {
+   "beat": 5,
+   "start": 26.844,
+   "end": 32.449,
+   "text": "Rama held him and wept. 'I can find another wife. I cannot find another brother.'"
+  },
+  {
+   "beat": 6,
+   "start": 32.949,
+   "end": 38.383,
+   "text": "The whole army fell silent. Without Lakshmana, Rama said, he would not fight on."
+  },
+  {
+   "beat": 7,
+   "start": 38.883,
+   "end": 47.935,
+   "text": "The physician Sushena checked his pulse. 'He is alive. There is one hope: the Sanjeevani herb, from a mountain in the Himalayas.'"
+  },
+  {
+   "beat": 8,
+   "start": 48.435,
+   "end": 52.951,
+   "text": "'But it must reach him before sunrise.' Every eye turned to Hanuman."
+  }
+ ]
+}

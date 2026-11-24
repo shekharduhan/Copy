@@ -1,0 +1,54 @@
+{
+ "ep": 27,
+ "duration": 57.58,
+ "beats": [
+  {
+   "beat": 1,
+   "start": 0.6,
+   "end": 10.436,
+   "text": "One morning, Sita saw a deer with a golden coat and silver spots. Its horns shone like jewels, and its hooves were like blue sapphire."
+  },
+  {
+   "beat": 2,
+   "start": 10.936,
+   "end": 16.977,
+   "text": "It played near the hut, coming close, then running away, as if it wanted to be seen."
+  },
+  {
+   "beat": 3,
+   "start": 17.477,
+   "end": 26.62,
+   "text": "Sita was enchanted. 'Rama, please catch it for me! If it lives, we will take it home to Ayodhya. If not, its golden skin will be a seat.'"
+  },
+  {
+   "beat": 4,
+   "start": 27.12,
+   "end": 35.171,
+   "text": "Lakshmana was uneasy. 'Brother, no deer like this exists. It could be a demon's trick. It could be Maricha.'"
+  },
+  {
+   "beat": 5,
+   "start": 35.671,
+   "end": 41.608,
+   "text": "But Rama could not refuse Sita. 'If it is Maricha, I will deal with him,' he said."
+  },
+  {
+   "beat": 6,
+   "start": 42.108,
+   "end": 46.883,
+   "text": "'Guard her well,' he told Lakshmana. 'Do not leave her alone for a moment.'"
+  },
+  {
+   "beat": 7,
+   "start": 47.383,
+   "end": 49.717,
+   "text": "And he followed the deer into the forest."
+  },
+  {
+   "beat": 8,
+   "start": 50.217,
+   "end": 55.879,
+   "text": "The deer led him deeper and deeper, appearing and vanishing among the trees, far away from the hut."
+  }
+ ]
+}
